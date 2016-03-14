@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/!svn/ver/158/atp/solicitudes/solicitudes.webapp/trunk/src/test/java/com/atp/solicitudes/reports/test
+END
+ConsultaOperativoTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/!svn/ver/158/atp/solicitudes/solicitudes.webapp/trunk/src/test/java/com/atp/solicitudes/reports/test/ConsultaOperativoTest.java
+END
+ContenedoresLlenos_UltimoEmbarqueTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/!svn/ver/158/atp/solicitudes/solicitudes.webapp/trunk/src/test/java/com/atp/solicitudes/reports/test/ContenedoresLlenos_UltimoEmbarqueTest.java
+END
+ArrivalTimeLlegadaAlCentroReguladorTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/!svn/ver/158/atp/solicitudes/solicitudes.webapp/trunk/src/test/java/com/atp/solicitudes/reports/test/ArrivalTimeLlegadaAlCentroReguladorTest.java
+END
+RunAllTests.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/!svn/ver/158/atp/solicitudes/solicitudes.webapp/trunk/src/test/java/com/atp/solicitudes/reports/test/RunAllTests.java
+END
+ContenedoresLlenos_RecepcionPorPuertaTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/!svn/ver/158/atp/solicitudes/solicitudes.webapp/trunk/src/test/java/com/atp/solicitudes/reports/test/ContenedoresLlenos_RecepcionPorPuertaTest.java
+END
+ConsultaBookingTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/!svn/ver/158/atp/solicitudes/solicitudes.webapp/trunk/src/test/java/com/atp/solicitudes/reports/test/ConsultaBookingTest.java
+END
+ContenedoresLlenos_UltimoDesembarqueTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/!svn/ver/158/atp/solicitudes/solicitudes.webapp/trunk/src/test/java/com/atp/solicitudes/reports/test/ContenedoresLlenos_UltimoDesembarqueTest.java
+END
+ContenedoresLlenos_EntregaPorPuertaTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/!svn/ver/158/atp/solicitudes/solicitudes.webapp/trunk/src/test/java/com/atp/solicitudes/reports/test/ContenedoresLlenos_EntregaPorPuertaTest.java
+END
+ConsultaBLTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/!svn/ver/158/atp/solicitudes/solicitudes.webapp/trunk/src/test/java/com/atp/solicitudes/reports/test/ConsultaBLTest.java
+END

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/!svn/ver/371/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/atp/solicitudes/reports/dao
+END
+ContenedoresLlenos_UltimoDesembarqueDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/atp/solicitudes/reports/dao/ContenedoresLlenos_UltimoDesembarqueDao.java
+END
+ConsultaBookingDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/atp/solicitudes/reports/dao/ConsultaBookingDao.java
+END
+ArrivalTimeDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/atp/solicitudes/reports/dao/ArrivalTimeDao.java
+END
+PaseDeEntradaReportDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/!svn/ver/371/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/atp/solicitudes/reports/dao/PaseDeEntradaReportDao.java
+END
+ContenedoresLlenos_RecepcionPorPuertaDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/atp/solicitudes/reports/dao/ContenedoresLlenos_RecepcionPorPuertaDao.java
+END
+ContenedoresLlenos_UltimoEmbarqueDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/atp/solicitudes/reports/dao/ContenedoresLlenos_UltimoEmbarqueDao.java
+END
+ArrivalTimeLlegadaAlCentroReguladorDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/atp/solicitudes/reports/dao/ArrivalTimeLlegadaAlCentroReguladorDao.java
+END
+ConsultaOperativoDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/atp/solicitudes/reports/dao/ConsultaOperativoDao.java
+END
+ConsultaBLDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/atp/solicitudes/reports/dao/ConsultaBLDao.java
+END
+ContenedoresLlenos_EntregaPorPuertaDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/atp/solicitudes/reports/dao/ContenedoresLlenos_EntregaPorPuertaDao.java
+END
+EtasCierresBuquesDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/atp/solicitudes/reports/dao/EtasCierresBuquesDao.java
+END

@@ -1,0 +1,2111 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/!svn/ver/371/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo
+END
+TUfvTimestamps.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TUfvTimestamps.java
+END
+TRailcar.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TRailcar.java
+END
+TEqDamageComponent.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TEqDamageComponent.java
+END
+TEdiMessageDirection.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TEdiMessageDirection.java
+END
+TExtensionInjection.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TExtensionInjection.java
+END
+DoorDirectionType.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/DoorDirectionType.java
+END
+TRestowType.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TRestowType.java
+END
+TruckingCoType.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TruckingCoType.java
+END
+THazardFireCode.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/THazardFireCode.java
+END
+TIcu.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TIcu.java
+END
+TReeferRequirements.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TReeferRequirements.java
+END
+TEdiFilters.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TEdiFilters.java
+END
+TUnitRailOrder.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TUnitRailOrder.java
+END
+TDeliCtrs.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TDeliCtrs.java
+END
+TStorageRule.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TStorageRule.java
+END
+TLineAgreement.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TLineAgreement.java
+END
+TEquipmentClass.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TEquipmentClass.java
+END
+TEdo.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TEdo.java
+END
+TReportDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TReportDefinition.java
+END
+TTrainVisit.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TTrainVisit.java
+END
+TBillToInformation.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TBillToInformation.java
+END
+TElo.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TElo.java
+END
+TMoveHistory.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TMoveHistory.java
+END
+TEquipPrefix.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TEquipPrefix.java
+END
+TGuaranteeType.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TGuaranteeType.java
+END
+TVesselClass.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TVesselClass.java
+END
+AppointmentRequestType.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/AppointmentRequestType.java
+END
+TComplexes.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TComplexes.java
+END
+TRoles.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TRoles.java
+END
+TruckVisitResponseType.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TruckVisitResponseType.java
+END
+TEdiMessageClass.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TEdiMessageClass.java
+END
+TTruckingCompany.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TTruckingCompany.java
+END
+TMove.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TMove.java
+END
+TBillOfLading.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TBillOfLading.java
+END
+TruckVisitWithTransactionsResponseType.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TruckVisitWithTransactionsResponseType.java
+END
+MessageType.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/MessageType.java
+END
+TVesselVisit.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TVesselVisit.java
+END
+TTranSubTypeEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TTranSubTypeEnum.java
+END
+ScaleWeightType.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/ScaleWeightType.java
+END
+ReeferDetailsType.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/ReeferDetailsType.java
+END
+ScanType.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/ScanType.java
+END
+THazardItemPlacards.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/THazardItemPlacards.java
+END
+TReportingJobDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TReportingJobDefinition.java
+END
+TExpEmptyContainers.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TExpEmptyContainers.java
+END
+TUnitIdentity.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TUnitIdentity.java
+END
+TemperatureUnitType.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TemperatureUnitType.java
+END
+TOtherOrganization.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TOtherOrganization.java
+END
+TEdiFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TEdiFilter.java
+END
+TCtr.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TCtr.java
+END
+TCraneDelayCategory.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TCraneDelayCategory.java
+END
+HazardType.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/HazardType.java
+END
+TSortField.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TSortField.java
+END
+TGateLanes.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TGateLanes.java
+END
+TCarrierItinerary.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TCarrierItinerary.java
+END
+GateWebserviceResponseType.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/GateWebserviceResponseType.java
+END
+MessagesType.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/MessagesType.java
+END
+TMembers.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TMembers.java
+END
+TDamage.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TDamage.java
+END
+TTopology.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TTopology.java
+END
+TSOBillOfLading.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TSOBillOfLading.java
+END
+TEdiSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TEdiSession.java
+END
+TEventType.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TEventType.java
+END
+TServiceOrderStatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TServiceOrderStatus.java
+END
+TUnitEtc.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TUnitEtc.java
+END
+THazardItemPlacard.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/THazardItemPlacard.java
+END
+AppointmentRequestBaseType.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/AppointmentRequestBaseType.java
+END
+TFlagType.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TFlagType.java
+END
+TruckBaseRequestType.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TruckBaseRequestType.java
+END
+TResMtyCtrs.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TResMtyCtrs.java
+END
+TUnit.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TUnit.java
+END
+TGroovyLocation.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TGroovyLocation.java
+END
+TruckScanType.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TruckScanType.java
+END
+TruckVisitAppointmentRequestType.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TruckVisitAppointmentRequestType.java
+END
+GateAppointmentRequestType.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/!svn/ver/371/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/GateAppointmentRequestType.java
+END
+TMnrStatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TMnrStatus.java
+END
+TUnitRouting.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TUnitRouting.java
+END
+TMetafieldOverride.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TMetafieldOverride.java
+END
+LovType.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/LovType.java
+END
+TPlatforms.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TPlatforms.java
+END
+TGateLane.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TGateLane.java
+END
+TPoolEqClasses.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TPoolEqClasses.java
+END
+TAutoUpdateRule.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TAutoUpdateRule.java
+END
+TruckTransactionCancellationRequestType.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TruckTransactionCancellationRequestType.java
+END
+TEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TEvent.java
+END
+TChassisProperties.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TChassisProperties.java
+END
+TIdoUnit.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TIdoUnit.java
+END
+FieldDescriptorType.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/FieldDescriptorType.java
+END
+TPlacard.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TPlacard.java
+END
+TUser.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TUser.java
+END
+TEquipCondition.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TEquipCondition.java
+END
+TUnitHandling.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TUnitHandling.java
+END
+TBusinessUnit.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TBusinessUnit.java
+END
+TEqTypeGroupItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TEqTypeGroupItem.java
+END
+TBusinessEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TBusinessEntity.java
+END
+TFacilities.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TFacilities.java
+END
+TAgentRepresentations.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TAgentRepresentations.java
+END
+TUnitRenumber.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TUnitRenumber.java
+END
+MassUnitType.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/MassUnitType.java
+END
+TEventFieldChanges.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TEventFieldChanges.java
+END
+TCraneDelayType.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TCraneDelayType.java
+END
+EquipmentListType.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/EquipmentListType.java
+END
+TOrderItems.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TOrderItems.java
+END
+TReportDesign.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TReportDesign.java
+END
+TDocTypeUsage.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TDocTypeUsage.java
+END
+TQuays.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TQuays.java
+END
+TNoticeRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TNoticeRequest.java
+END
+TEquipTypeRestrictions.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TEquipTypeRestrictions.java
+END
+EqOrderType.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/EqOrderType.java
+END
+TEqTypeGroupItems.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TEqTypeGroupItems.java
+END
+TMaterial.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TMaterial.java
+END
+TEdiEntries.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TEdiEntries.java
+END
+TEqTypeGroupKind.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TEqTypeGroupKind.java
+END
+TUnitEquipment.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TUnitEquipment.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/package-info.java
+END
+TProductType.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TProductType.java
+END
+TJobFrequency.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TJobFrequency.java
+END
+TFlags.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TFlags.java
+END
+TruckTransactionFilterType.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TruckTransactionFilterType.java
+END
+TIsoGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TIsoGroup.java
+END
+TSOBkg.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TSOBkg.java
+END
+TLoadListAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TLoadListAction.java
+END
+TSpecialStow.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TSpecialStow.java
+END
+TEdiMailBoxes.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TEdiMailBoxes.java
+END
+TDigitalAsset.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TDigitalAsset.java
+END
+TDirection.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TDirection.java
+END
+TEntitySet.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TEntitySet.java
+END
+TRole.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TRole.java
+END
+THazardNumberType.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/THazardNumberType.java
+END
+TEdiFilterFieldIdEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TEdiFilterFieldIdEnum.java
+END
+TServiceOrderUnitStatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TServiceOrderUnitStatus.java
+END
+TUnitSimpleAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TUnitSimpleAction.java
+END
+TGateYardBlocks.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TGateYardBlocks.java
+END
+TGoodsDocs.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TGoodsDocs.java
+END
+TEdiTradingPartner.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TEdiTradingPartner.java
+END
+TOwnership.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TOwnership.java
+END
+TLowerTierRestrictions.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TLowerTierRestrictions.java
+END
+TCodeExtensionLanguage.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TCodeExtensionLanguage.java
+END
+AppointmentNbrs.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/AppointmentNbrs.java
+END
+TLineAgreementBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TLineAgreementBase.java
+END
+TTruckDriver.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TTruckDriver.java
+END
+TRouting.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TRouting.java
+END
+TStorageGuarantees.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TStorageGuarantees.java
+END
+TPool.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TPool.java
+END
+TSparcsCraneCodes.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TSparcsCraneCodes.java
+END
+TEquipStatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TEquipStatus.java
+END
+GateStageType.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/GateStageType.java
+END
+TSortFields.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TSortFields.java
+END
+TObsPlacards.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TObsPlacards.java
+END
+GateDocumentsType.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/GateDocumentsType.java
+END
+TPlatform.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TPlatform.java
+END
+TConsole.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TConsole.java
+END
+TUnLocCode.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TUnLocCode.java
+END
+GateWebserviceRequestType.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/GateWebserviceRequestType.java
+END
+TEntitySetUse.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TEntitySetUse.java
+END
+TEquipmentFeature.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TEquipmentFeature.java
+END
+HazardsType.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/HazardsType.java
+END
+TConfigSetting.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TConfigSetting.java
+END
+TruckType.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TruckType.java
+END
+TDispatchReserved.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TDispatchReserved.java
+END
+AuditType.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/AuditType.java
+END
+TGateYardBlock.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TGateYardBlock.java
+END
+TAgent.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TAgent.java
+END
+TMasterOrg.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TMasterOrg.java
+END
+TContainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TContainer.java
+END
+TRecvCtrs.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TRecvCtrs.java
+END
+TPhysical.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TPhysical.java
+END
+TItemServiceTypeUnits.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TItemServiceTypeUnits.java
+END
+TRailroad.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TRailroad.java
+END
+DriverType.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/DriverType.java
+END
+TScope.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TScope.java
+END
+ChassisType.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/ChassisType.java
+END
+TAccessory.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TAccessory.java
+END
+TPoolEqTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TPoolEqTypes.java
+END
+TruckVisitRequestType.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TruckVisitRequestType.java
+END
+ContainerType.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/ContainerType.java
+END
+TJmsConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TJmsConnection.java
+END
+TJobTargets.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TJobTargets.java
+END
+SealsType.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/SealsType.java
+END
+TGateLaneClass.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TGateLaneClass.java
+END
+TEquipNominalLength.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TEquipNominalLength.java
+END
+TBooking.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TBooking.java
+END
+TGroovy.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TGroovy.java
+END
+TUnitSeals.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TUnitSeals.java
+END
+TEquipmentGrade.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TEquipmentGrade.java
+END
+TServiceRule.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TServiceRule.java
+END
+TExtensionBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TExtensionBase.java
+END
+THoldPermissionType.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/THoldPermissionType.java
+END
+TGateYards.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TGateYards.java
+END
+TruckStageType.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TruckStageType.java
+END
+TUnitReefer.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TUnitReefer.java
+END
+TServiceTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TServiceTypes.java
+END
+TSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TSettings.java
+END
+TEdiJobDefinitionRule.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TEdiJobDefinitionRule.java
+END
+TLoadListUnitContents.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TLoadListUnitContents.java
+END
+TCheckDigitAlgorithm.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TCheckDigitAlgorithm.java
+END
+TPoolEquipments.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TPoolEquipments.java
+END
+TCategory.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TCategory.java
+END
+THazardousGoods.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/THazardousGoods.java
+END
+TPackageType.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TPackageType.java
+END
+VentDetailsType.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/VentDetailsType.java
+END
+TRailcarFlatCarType.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TRailcarFlatCarType.java
+END
+TUfvFlexFields.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TUfvFlexFields.java
+END
+EquipmentIdType.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/EquipmentIdType.java
+END
+TGoods.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TGoods.java
+END
+TRoutingPoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TRoutingPoint.java
+END
+TOwnedOrLeased.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TOwnedOrLeased.java
+END
+TCodeExtension.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TCodeExtension.java
+END
+TMoveDetails.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TMoveDetails.java
+END
+TTruckStatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TTruckStatus.java
+END
+TOperator.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TOperator.java
+END
+TBizRole.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TBizRole.java
+END
+TReefer.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TReefer.java
+END
+TGuarantee.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TGuarantee.java
+END
+TEqOrderItems.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TEqOrderItems.java
+END
+FieldDescriptorTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/FieldDescriptorTypes.java
+END
+TUnitOog.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TUnitOog.java
+END
+TPoolTrkcs.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TPoolTrkcs.java
+END
+TEqoiOog.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TEqoiOog.java
+END
+BundlesType.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/BundlesType.java
+END
+TUpdateFlags.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TUpdateFlags.java
+END
+TMessageMaps.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TMessageMaps.java
+END
+TUnitEro.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TUnitEro.java
+END
+TBkg.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TBkg.java
+END
+TAccType.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TAccType.java
+END
+TEqTypeGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TEqTypeGroup.java
+END
+TGateLanePrinters.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TGateLanePrinters.java
+END
+TAuthMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TAuthMethod.java
+END
+TEventEffects.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TEventEffects.java
+END
+TransactionStageType.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TransactionStageType.java
+END
+AppointmentResponseType.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/AppointmentResponseType.java
+END
+TTruckingCompanyLineRestictions.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TTruckingCompanyLineRestictions.java
+END
+TPropertyGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TPropertyGroup.java
+END
+DocumentType.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/DocumentType.java
+END
+TChassis.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TChassis.java
+END
+TUnitContents.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TUnitContents.java
+END
+TShipperConsignee.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TShipperConsignee.java
+END
+TEdiJobClass.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TEdiJobClass.java
+END
+TDamages.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TDamages.java
+END
+TSOItems.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TSOItems.java
+END
+TServiceOrder.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TServiceOrder.java
+END
+AppointmentListRequestType.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/AppointmentListRequestType.java
+END
+TUnitFlexFields.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TUnitFlexFields.java
+END
+TUnitHazards.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TUnitHazards.java
+END
+TEquipNominalHeight.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TEquipNominalHeight.java
+END
+TruckVisitType.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TruckVisitType.java
+END
+TPredicate.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TPredicate.java
+END
+TMasterBizUnit.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TMasterBizUnit.java
+END
+TLowerAndUpperTierRestrictions.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TLowerAndUpperTierRestrictions.java
+END
+TGate.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TGate.java
+END
+TEdiEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TEdiEntry.java
+END
+TMoveKind.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TMoveKind.java
+END
+THpu.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/THpu.java
+END
+TConsolePrinter.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TConsolePrinter.java
+END
+WeightUnitType.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/WeightUnitType.java
+END
+TEquipType.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TEquipType.java
+END
+TruckTransactionsType.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TruckTransactionsType.java
+END
+TLoadListRouting.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TLoadListRouting.java
+END
+AccessoryType.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/AccessoryType.java
+END
+ObjectFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/ObjectFactory.java
+END
+AppointmentResponseBaseType.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/AppointmentResponseBaseType.java
+END
+TDocumentType.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TDocumentType.java
+END
+DamageType.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/DamageType.java
+END
+TEdiPostingRule.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TEdiPostingRule.java
+END
+TGateLaneSelected.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TGateLaneSelected.java
+END
+THazard.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/THazard.java
+END
+TPortRules.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TPortRules.java
+END
+TIdo.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TIdo.java
+END
+TMyListChoice.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TMyListChoice.java
+END
+TRestrictions.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TRestrictions.java
+END
+TTruckingCompanyLine.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TTruckingCompanyLine.java
+END
+TContactInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TContactInfo.java
+END
+AppointmentType.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/AppointmentType.java
+END
+TGoodsDeclaration.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TGoodsDeclaration.java
+END
+TReeferRecordingHistory.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TReeferRecordingHistory.java
+END
+TUnitAssignToBooking.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TUnitAssignToBooking.java
+END
+TGuaranteeAppliedToClass.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TGuaranteeAppliedToClass.java
+END
+TOog.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TOog.java
+END
+TEro.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TEro.java
+END
+TruckVisitAppointmentResponseType.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TruckVisitAppointmentResponseType.java
+END
+TEquipSerialRange.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TEquipSerialRange.java
+END
+TLineOperator.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TLineOperator.java
+END
+ProcessTruckResponseType.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/ProcessTruckResponseType.java
+END
+TGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TGroup.java
+END
+TEquipmentDamages.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TEquipmentDamages.java
+END
+TNonMoveHistory.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TNonMoveHistory.java
+END
+TBaseReefer.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TBaseReefer.java
+END
+TRfrType.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TRfrType.java
+END
+TBizGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TBizGroup.java
+END
+TSerialRanges.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TSerialRanges.java
+END
+TConsolePrinters.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TConsolePrinters.java
+END
+TGuaranteeOverrideType.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TGuaranteeOverrideType.java
+END
+TCommodity.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TCommodity.java
+END
+TUnitEdo.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TUnitEdo.java
+END
+TUpperTierRestrictions.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TUpperTierRestrictions.java
+END
+TUpdateFields.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TUpdateFields.java
+END
+TReeferRecordingHistories.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TReeferRecordingHistories.java
+END
+TLifeCycleStateType.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TLifeCycleStateType.java
+END
+TEdiSessions.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TEdiSessions.java
+END
+TServiceQuantityUnitEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TServiceQuantityUnitEnum.java
+END
+TExecutionScope.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TExecutionScope.java
+END
+TRisks.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TRisks.java
+END
+TUnitElo.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TUnitElo.java
+END
+GateAppointmentResponseType.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/GateAppointmentResponseType.java
+END
+EqOrderItemType.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/EqOrderItemType.java
+END
+TEdiMessageStandard.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TEdiMessageStandard.java
+END
+THazards.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/THazards.java
+END
+TTruck.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TTruck.java
+END
+TruckTransactionRequestType.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TruckTransactionRequestType.java
+END
+TEdiMessageTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TEdiMessageTypes.java
+END
+TEquipDamageType.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TEquipDamageType.java
+END
+TCarrier.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TCarrier.java
+END
+TVesselType.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TVesselType.java
+END
+TTruckingCompanies.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TTruckingCompanies.java
+END
+TUpdateMode.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TUpdateMode.java
+END
+GateDocumentType.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/GateDocumentType.java
+END
+TTransit.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TTransit.java
+END
+TResCtrs.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TResCtrs.java
+END
+TruckVisitFilterType.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TruckVisitFilterType.java
+END
+TPosition.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TPosition.java
+END
+TBizRolePrivilege.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TBizRolePrivilege.java
+END
+TJobDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TJobDefinition.java
+END
+BundleType.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/BundleType.java
+END
+TGateConsoles.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TGateConsoles.java
+END
+TJobTarget.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TJobTarget.java
+END
+TChs.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TChs.java
+END
+TGateYard.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TGateYard.java
+END
+SlotType.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/SlotType.java
+END
+AppointmentListResponseType.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/AppointmentListResponseType.java
+END
+TEquipmentIdentity.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TEquipmentIdentity.java
+END
+TruckTransactionsRequestType.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TruckTransactionsRequestType.java
+END
+TEquipmentType.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TEquipmentType.java
+END
+TCarrierService.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TCarrierService.java
+END
+DriverBaseRequestType.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/DriverBaseRequestType.java
+END
+AppointmentsType.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/AppointmentsType.java
+END
+TAcc.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TAcc.java
+END
+TFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TFilter.java
+END
+TExtension.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TExtension.java
+END
+TVessel.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TVessel.java
+END
+TRailcarType.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TRailcarType.java
+END
+TLineList.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TLineList.java
+END
+TPrinter.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TPrinter.java
+END
+TEdiResponsibleAgency.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TEdiResponsibleAgency.java
+END
+TYards.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TYards.java
+END
+TBookingRule.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TBookingRule.java
+END
+DamagesType.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/DamagesType.java
+END
+TPowerGuarantees.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TPowerGuarantees.java
+END
+TEquipment.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TEquipment.java
+END
+TruckTransactionType.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TruckTransactionType.java
+END
+TBaseReeferRequirements.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TBaseReeferRequirements.java
+END
+TUnitPropertyUpdate.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TUnitPropertyUpdate.java
+END
+TTransponder.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/TTransponder.java
+END

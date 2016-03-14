@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="mybatis.reports.ArrivalTimeLlegadaAlCentroReguladorMapper">
+	<!-- <cache></cache> -->
+	<resultMap
+		type="com.atp.solicitudes.reports.model.ArrivalTimeLlegadaAlCentroRegulador"
+		id="ArrivalTimeLlegadaAlCentroRegulador">
+		<result property="visit" column="VISITA_NBR" /> 
+		<result property="creationDate" column="FECHA_REGISTRO" />
+		<result property="creationUser" column="USUARIO_REGISTRO" />
+		<result property="llamadoDate" column="FECHA_LLAMADO" />		
+	</resultMap>
+		
+	<!-- base queries -->		
+					
+	<sql id="llegada_al_centro_regulador_query" >
+<![CDATA[
+  SELECT 
+  	VISITA_NBR,FECHA_REGISTRO,USUARIO_REGISTRO,FECHA_LLAMADO
+  FROM
+    CU_CONT_VISITAS_VIEW
+  WHERE FECHA_REGISTRO > GETDATE() - 90 AND VISITA_NBR = #{paseDeEntrada}     
+]]>
+	</sql>
+			
+	<select id="selectArrivalTimeLlegadaAlCentroRegulador" resultMap="ArrivalTimeLlegadaAlCentroRegulador" parameterType="map" >
+		<include refid="llegada_al_centro_regulador_query" />
+	</select>
+</mapper>

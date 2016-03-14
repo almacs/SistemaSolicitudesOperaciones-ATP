@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="mybatis.StoredProceduresMapper">
+<!-- <cache></cache> -->
+	
+	<update id="cancelProcedure" statementType="CALLABLE" parameterType="map"> 
+   		 {call CITAS_UPD_SRV_EVENT_NOTE( #{V_CITA}, #{V_NOTE})}     
+	</update>
+	
+	<update id="setAgentClientReference" statementType="CALLABLE" parameterType="map">
+		 {call CITAS_RG_APP_UPD_NOTES_AAD_CTE(#{APP_NBR}, #{AGENT_GKEY}, #{SHIPPER_GKEY}, #{REFERENCE})}
+	</update>
+	
+	<update id="setAgentClientRef" statementType="CALLABLE" parameterType="map">
+		 {call CITAS_UPD_INV_AAD_CTE(#{APP_NBR}, #{AGENT_GKEY}, #{SHIPPER_GKEY})}
+	</update>
+	
+	<update id="setBookingItemGkey" statementType="CALLABLE" parameterType="map">
+		 {call CITAS_RG_APP_UPD_BOOKING_ITEM(#{BOOKING_ITEM_GKEY}, #{APP_NBR})}
+	</update> 
+	
+ </mapper>

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/resources/webservices/xsd
+END
+argo-types.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/resources/webservices/xsd/argo-types.xsd
+END
+gate-types.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/resources/webservices/xsd/gate-types.xsd
+END
+common-types.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/resources/webservices/xsd/common-types.xsd
+END
+snx-types.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/resources/webservices/xsd/snx-types.xsd
+END
+argoservice.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/resources/webservices/xsd/argoservice.wsdl
+END
+GateWebserviceResponse.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/resources/webservices/xsd/GateWebserviceResponse.xsd
+END
+GateWebserviceRequest.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/resources/webservices/xsd/GateWebserviceRequest.xsd
+END
+gate-response-type.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/resources/webservices/xsd/gate-response-type.xsd
+END

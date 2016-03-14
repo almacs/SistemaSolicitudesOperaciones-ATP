@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/!svn/ver/178/ow/webapp-framework/branches/version2/src/main/java/com/objectwave/exception
+END
+DomainModelException.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/!svn/ver/178/ow/webapp-framework/branches/version2/src/main/java/com/objectwave/exception/DomainModelException.java
+END
+BusinessRuleException.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/!svn/ver/178/ow/webapp-framework/branches/version2/src/main/java/com/objectwave/exception/BusinessRuleException.java
+END

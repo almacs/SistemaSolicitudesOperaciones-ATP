@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="mybatis.UserN4Mapper">
+<!-- <cache></cache> -->
+
+	<!-- result maps -->
+	<resultMap type="com.atp.solicitudes.model.UserN4" id="UserN4">
+		<result property="gkey" column="GKEY" />
+		<result property="id" column="ID" />
+		<result property="name" column="NAME" />
+		<result property="custid" column="CUSTID" />
+		<result property="role" column="ROLE" />
+		<result property="life_cycle_state" column="LIFE_CYCLE_STATE" />
+		<result property="credit_status" column="CREDIT_STATUS" />
+	</resultMap>
+ 
+ 
+ 	<!-- base queries -->
+	<sql id="base_query">select * from REF_BIZUNIT_SCOPED_VIEW</sql>
+	<sql id="base_count">select count(*) from REF_BIZUNIT_SCOPED_VIEW</sql>
+ 
+ 
+ 	<!-- labeled queries -->
+	<select id="selectAll" resultMap="UserN4">
+		<include refid="base_query"/> order by ID asc
+	</select>
+
+	<select id="selectByGkey" resultMap="UserN4" parameterType="int">
+		<include refid="base_query"/> where GKEY = #{gkey}
+	</select>
+
+	<select id="selectById" resultMap="UserN4" parameterType="String">
+		<include refid="base_query"/> where ID = #{id}
+	</select>
+
+	<select id="selectByName" resultMap="UserN4" parameterType="String">
+		<include refid="base_query"/> where NAME = #{name}
+	</select>
+	
+	<select id="selectByCustId" resultMap="UserN4" parameterType="String">
+		<include refid="base_query"/> where CUSTID = #{custid}
+	</select>
+	
+	<!-- generic queries -->
+	<select id="selectCount" resultType="long" parameterType="map">
+		<include refid="base_count" />
+		<include refid="where_block" />
+	</select>
+	
+	<select id="selectUserN4_distinct" resultMap="SimpleEntry_Id_Name">
+		select distinct GKEY, ${columnName} from REF_BIZUNIT_SCOPED_VIEW where <include refid="userN4_where" /> and ${columnName} like #{columnValue} order by ID asc
+	</select>
+	
+	<sql id="userN4_where">
+		 ROLE in ('SHIPPER', 'AGENT', 'LINEOP') and LIFE_CYCLE_STATE = 'ACT'
+	</sql>
+
+	<select id="select" resultMap="UserN4" parameterType="map">
+		<include refid="base_query" />
+		<include refid="where_block" />
+		
+		<if test="_orderInfo != null">
+			<include refid="order_by_block" />
+		</if>
+		
+		<if test="_multipleOrderInfo != null">
+			<include refid="order_by_block_multiple" />
+		</if>
+	</select>
+	
+	<sql id="where_block">
+		where 1 = 1
+
+		<if test="gkey != null">
+			and GKEY = #{gkey}
+		</if>
+		<if test="id != null">
+			and ID like #{id}
+		</if>
+	</sql>
+
+	<sql id="order_by_block">
+		<if test="_orderInfo.gkey">
+			GKEY ${_orderInfo.gkey}
+		</if>
+		<if test="_orderInfo.id">
+			ID ${_orderInfo.id}
+		</if>
+	</sql>
+
+	<sql id="order_by_block_multiple">
+		<if test="_multipleOrderInfo">
+			order by ${_multipleOrderInfo}
+		</if>
+	</sql>
+
+
+	<!-- distinct queries -->
+	<resultMap type="com.objectwave.utils.SimpleEntry" id="SimpleEntry_Id_Name">
+		<result property="key" column="GKEY" />
+		<result property="value" column="ID" />
+	</resultMap>
+</mapper>

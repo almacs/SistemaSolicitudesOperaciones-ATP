@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="mybatis.ActivityLogEntryMapper">
+<!-- 	<cache></cache> -->
+
+	<resultMap type="com.objectwave.model.ActivityLogEntry" id="ActivityLogEntry">
+		<result property="id" column="id" />
+		<result property="timestamp" column="timestamp" />
+		<result property="userId" column="user_id" />
+		<result property="username" column="username" />
+		<result property="module" column="module" />
+		<result property="action" column="action" />
+		<result property="data" column="data" />
+		<result property="accessed_from" column="accessed_from" />
+	</resultMap>
+
+	<sql id="base_query">select * from activity_log</sql>
+	<sql id="base_count">select count(*) from activity_log</sql>
+
+	<select id="selectAll" resultMap="ActivityLogEntry">
+		<include refid="base_query"/> order by timestamp desc
+	</select>
+
+	<select id="selectById" resultMap="ActivityLogEntry" parameterType="int">
+		<include refid="base_query"/> where id = #{id}
+	</select>
+
+	<select id="selectColumnValue" resultType="string" parameterType="map" useCache="false">
+		select distinct ${columnName} from activity_log where ${columnName} like #{columnValue}
+	</select>
+
+	<insert id="insert"
+		parameterType="com.objectwave.model.ActivityLogEntry"
+		useGeneratedKeys="true"
+		keyProperty="id"
+		keyColumn="id"
+		>
+		insert into activity_log (accessed_from,action,data,module,timestamp,username)
+		values (#{accessed_from},#{action},#{data},#{module},#{timestamp},#{username})
+	</insert>
+	
+	<select id="selectCount" resultType="long" parameterType="map">
+		<include refid="base_count" />
+		<include refid="where_block" />
+	</select>
+
+	<select id="select" resultMap="ActivityLogEntry" parameterType="map">
+		<include refid="base_query" />
+		<include refid="where_block" />
+		
+		<if test="_orderInfo != null">
+			<include refid="order_by_block" />
+		</if>
+	</select>
+	
+	<sql id="where_block">
+		where 1 = 1
+
+		<if test="id != null">
+			and id = #{id}
+		</if>
+		<if test="action != null">
+			and action like #{action}
+		</if>
+		<if test="module != null">
+			and module like #{module}
+		</if>
+		<if test="data != null">
+			and data like #{data}
+		</if>
+
+		<if test="timestamp_initial != null">
+		<![CDATA[
+			and timestamp >= #{timestamp_initial}
+		]]>
+		</if>
+		<if test="timestamp_final != null">
+		<![CDATA[
+			and timestamp <= #{timestamp_final}
+		]]>
+		</if>
+
+	</sql>
+
+	<sql id="order_by_block">
+		order by
+		<if test="_orderInfo.timestamp">
+			timestamp ${_orderInfo.timestamp}
+		</if>
+		<if test="_orderInfo.user">
+			username ${_orderInfo.user}
+		</if>
+		<if test="_orderInfo.data">
+			data ${_orderInfo.data}
+		</if>
+		<if test="_orderInfo.action">
+			action ${_orderInfo.action}
+		</if>
+		<if test="_orderInfo.accessed_from">
+			accessed_from ${_orderInfo.accessed_from}
+		</if>
+	</sql>
+	
+</mapper>

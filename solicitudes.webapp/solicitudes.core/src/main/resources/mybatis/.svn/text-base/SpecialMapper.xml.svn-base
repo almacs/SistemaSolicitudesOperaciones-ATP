@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="mybatis.SpecialMapper">
+<!-- 	<cache></cache> -->
+
+	<!-- result maps -->
+	<resultMap type="com.atp.solicitudes.model.Special" id="Special">
+		<result property="special" column="SPECIAL" />
+		<result property="descripcion" column="SPECIAL_DESC" />
+	</resultMap>
+	
+	<!-- base queries -->
+	<sql id="base_query">select * from CITAS_SPECIALS_VIEW</sql>
+	<sql id="base_count">select count(*) from CITAS_SPECIALS_VIEW</sql>
+	
+	<select id="selectById" resultMap="Special" parameterType="String">
+		<include refid="base_query"/> where SPECIAL = #{id}
+	</select>
+
+	<select id="selectQuery" resultMap="Special" parameterType="map">
+		<include refid="base_query"/>
+		<include refid="where_block" />
+
+		<if test="_orderInfo != null">
+			<include refid="order_by_block" />
+		</if>
+	</select>
+
+	<sql id="where_block">
+		where 1 = 1
+
+		<if test="companyLike != null">
+			and (COMPANY like #{companyLike})
+		</if>
+		<if test="moveWithAll != null">
+			and (MOVE = 'ALL' OR MOVE like #{moveWithAll})
+		</if>
+	</sql>
+
+	<sql id="order_by_block">
+		order by
+		<if test="_orderInfo.special">
+			SPECIAL ${_orderInfo.special}
+		</if>
+		<if test="_orderInfo.descripcion">
+			SPECIAL_DESC ${_orderInfo.descripcion}
+		</if>
+	</sql>
+
+	<select id="selectAll" resultMap="Special">
+		<include refid="base_query"/> order by SPECIAL_DESC asc
+	</select>
+</mapper>

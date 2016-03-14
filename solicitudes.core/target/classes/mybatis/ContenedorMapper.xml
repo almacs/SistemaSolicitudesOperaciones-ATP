@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="mybatis.ContenedorMapper">
+	<!-- <cache></cache> -->
+
+	<!-- result maps -->
+	<resultMap type="com.atp.solicitudes.model.Contenedor" id="Contenedor">
+		<result property="unit_gkey" column="UNIT_GKEY" />
+		<result property="unit_nbr" column="UNIT_NBR" />
+		<result property="type_Iso" column="TYPE_ISO" />
+	    <result property="line_Op" column="LINE_OP" />
+		<result property="category" column="CATEGORY" />
+		<result property="t_State" column="T_STATE" />
+		<result property="bl_Nbr" column="BL_NBR" />
+		<result property="temporal" column="TEMPORAL" />
+		<result property="recinto_Tit" column="RECINTO_TIT" />
+		<result property="special" column="SPECIAL" />
+		<result property="consignee_Id" column="CONSIGNEE_ID" />
+		<result property="num_Autorizacion" column="NUM_AUTORIZACION" />
+		<result property="recinto" column="RECINTO" />
+		<result property="custIdGKey" column="CUSTID_GKEY" />
+		<result property="shipCustIdGKey" column="SHIPCUSTID_GKEY" />
+	</resultMap>
+
+	<resultMap type="com.objectwave.utils.SimpleEntry" id="SimpleEntry_Id_Name">
+		<result property="key" column="UNIT_GKEY" />
+		<result property="value" column="UNIT_NBR" />
+	</resultMap>
+
+	<resultMap type="com.objectwave.utils.SimpleEntry" id="SimpleEntry_Name_Name">
+		<result property="key" column="UNIT_NBR" />
+		<result property="value" column="UNIT_NBR" />
+	</resultMap>
+
+	<!-- base queries -->
+	<sql id="base_query">select * from CITAS_UNIT_VIEW</sql>
+	<sql id="base_count">select count(*) from CITAS_UNIT_VIEW</sql>
+
+	<select id="selectById" resultMap="Contenedor" parameterType="int">
+		<include refid="base_query" />
+		where UNIT_GKEY = #{unit_gkey}
+	</select>
+
+	<select id="selectImpo_distinct" resultMap="SimpleEntry_Id_Name">
+		select distinct UNIT_GKEY, ${columnName} from CITAS_UNIT_VIEW where <include refid="impo_where" /> AND ${columnName} like #{columnValue} order by UNIT_NBR asc
+	</select>
+
+	<sql id="impo_where">
+		CATEGORY = 'IMPRT' and T_STATE = 'YARD' and <include refid="consigne_condition" /> and <include refid="num_autorizacion" />
+	</sql>
+
+	<sql id="num_autorizacion">
+<![CDATA[
+NUM_AUTORIZACION <> '0'
+]]>
+	</sql>
+
+	<select id="selectDesistimiento_distinct" resultMap="SimpleEntry_Id_Name">
+		select distinct UNIT_GKEY, ${columnName} from CITAS_UNIT_VIEW where <include refid="desistimiento_where" /> AND ${columnName} like #{columnValue} order by UNIT_NBR asc
+	</select>
+
+	<sql id="desistimiento_where">
+		CATEGORY = 'EXPRT' and T_STATE = 'YARD' and <include refid="consigne_condition" />
+	</sql>
+
+	<sql id="consigne_condition">
+		<if test="consigne != null">CONSIGNEE_ID = #{consigne}</if>
+		<if test="consigne == null">CONSIGNEE_ID is NULL</if>
+	</sql>
+
+	<select id="selectHistorial_distinct" resultMap="SimpleEntry_Name_Name">
+		select distinct UNIT_NBR, UNIT_NBR as LABEL from CITAS_UNIT_VIEW where UNIT_NBR like #{UNIT_NBR} order by UNIT_NBR asc
+	</select>
+	
+	<select id="select_recentFromUnitNbr" resultMap="Contenedor">
+		select * from CITAS_UNIT_VIEW where UNIT_NBR = #{UNIT_NBR} order by UNIT_GKEY desc
+	</select>
+	
+	<select id="selectCountUnitNbr" resultType="int" parameterType="String">
+		SELECT COUNT(UNIT_NBR) FROM CITAS_UNIT_VIEW where UNIT_NBR = #{unit_nbr}
+	</select>
+	
+</mapper>

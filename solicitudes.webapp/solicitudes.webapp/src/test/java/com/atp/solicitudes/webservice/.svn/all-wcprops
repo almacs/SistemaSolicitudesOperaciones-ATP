@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/158/atp/solicitudes/solicitudes.webapp/trunk/src/test/java/com/atp/solicitudes/webservice
+END
+N4WebServiceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/!svn/ver/158/atp/solicitudes/solicitudes.webapp/trunk/src/test/java/com/atp/solicitudes/webservice/N4WebServiceTest.java
+END
+DomainManagerN4Test.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/!svn/ver/158/atp/solicitudes/solicitudes.webapp/trunk/src/test/java/com/atp/solicitudes/webservice/DomainManagerN4Test.java
+END

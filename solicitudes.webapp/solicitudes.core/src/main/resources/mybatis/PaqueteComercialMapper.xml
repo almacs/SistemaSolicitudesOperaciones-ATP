@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="mybatis.PaqueteComercialMapper">
+<!-- 	<cache></cache> -->
+
+	<!-- result maps -->
+	<resultMap type="com.atp.solicitudes.model.PaqueteComercial" id="PaqueteComercial">
+		<result property="id" column="ID_PAQUETE" />
+		<result property="empresaId" column="ID_EMPRESA" />
+		<result property="nombre" column="CLAVE_PAQUETE" />
+		<result property="descripcion" column="DESCRIPCION" />
+		<result property="clienteId" column="ID_CLIENTE" />
+	</resultMap>
+
+ 	<!-- distinct queries -->
+	<resultMap type="com.objectwave.utils.SimpleEntry" id="SimpleEntry_Id_Name">
+		<result property="key" column="ID_PAQUETE" />
+		<result property="value" column="CLAVE_PAQUETE" />
+	</resultMap>
+
+ 	<!-- base queries -->
+	<sql id="base_query">
+	select * from CAT_PAQUETES_COMERCIAL
+	</sql>
+
+	<select id="selectById" resultMap="PaqueteComercial" parameterType="map">
+		<include refid="base_query"/> where ACTIVO = 1 and ID_PAQUETE = #{idPaquete}	
+	</select>
+
+	<select id="selectPaqueteComercial" resultMap="SimpleEntry_Id_Name">
+ 	select distinct ID_PAQUETE, CLAVE_PAQUETE from CAT_PAQUETES_COMERCIAL where ACTIVO = 1 and ID_CLIENTE = #{ID_CLIENTE} and CLAVE_PAQUETE like #{CLAVE_PAQUETE} order by ID_PAQUETE asc
+    </select>
+</mapper>

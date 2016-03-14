@@ -1,0 +1,37 @@
+10
+
+dir
+755
+https://svnserver.objectwave.com/atp/solicitudes/solicitudes.webapp/trunk/src/test/java/com/atp/solicitudes
+https://svnserver.objectwave.com
+
+
+
+2014-05-09T20:07:40.635722Z
+158
+jhinojosa
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+14428335-e503-4214-8c7d-7500f3910c27
+
+reports
+dir
+
+test
+dir
+
+webservice
+dir
+

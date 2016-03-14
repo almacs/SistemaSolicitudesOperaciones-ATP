@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="mybatis.AgenciaAduanalMapper">
+<!-- 	<cache></cache> -->
+
+	<!-- result maps -->
+	<resultMap type="com.atp.solicitudes.model.AgenciaAduanal" id="AgenciaAduanal">
+		<result property="id" column="GKEY" />
+		<result property="nombre" column="ID" />
+		<result property="custid" column="CUSTID" />
+	</resultMap>
+ 
+ 	<!-- distinct queries -->
+	<resultMap type="com.objectwave.utils.SimpleEntry" id="SimpleEntry_Id_Name">
+		<result property="key" column="GKEY" />
+		<result property="value" column="ID" />
+	</resultMap>
+
+ <!-- base queries -->
+	<sql id="base_query">
+		select OBJ.GKEY, OBJ.CUSTID, OBJ.ID from CITAS_AGENTE_REP_VIEW OBJ
+	</sql>
+
+	<select id="selectById" resultMap="AgenciaAduanal" parameterType="map">
+		<include refid="base_query"/>
+		where OBJ.ROLE = 'AGENT' and OBJ.GKEY = #{GKEY}
+	</select>
+	
+	<select id="selectDistinct" resultMap="SimpleEntry_Id_Name">
+	select OBJ.GKEY, OBJ.CUSTID_REP, OBJ.CUSTID, OBJ.ID from CITAS_AGENTE_REP_VIEW OBJ, 
+	REF_BIZUNIT_SCOPED_VIEW N4 where OBJ.ROLE = 'AGENT' and N4.CUSTID = OBJ.CUSTID_REP and N4.GKEY = #{userN4Id} and OBJ.ID like #{columnValue}
+	</select>
+</mapper>

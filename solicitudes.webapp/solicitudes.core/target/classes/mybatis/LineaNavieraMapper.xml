@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="mybatis.LineaNavieraMapper">
+<!-- 	<cache></cache> -->
+
+	<!-- result maps -->
+	<resultMap type="com.atp.solicitudes.model.LineaNaviera" id="LineaNaviera">
+		<result property="id" column="GKEY" />
+		<result property="nombre" column="ID" />
+	</resultMap>
+	
+	<!-- base queries -->
+	<sql id="base_query">select * from CITAS_LINEANAVIERA_VIEW</sql>
+	<sql id="base_count">select count(*) from CITAS_LINEANAVIERA_VIEW</sql>
+	
+	<!-- labeled queries -->
+	<select id="selectById" resultMap="LineaNaviera" parameterType="int">
+		<include refid="base_query"/> where GKEY = #{id}
+	</select>
+	
+	<select id="selectByNombre" resultMap="LineaNaviera" parameterType="String">
+		<include refid="base_query"/> where ID = #{nombre}
+	</select>
+
+	<!-- distinct queries -->
+	<resultMap type="com.objectwave.utils.SimpleEntry" id="SimpleEntry_Id_Name">
+		<result property="key" column="GKEY" />
+		<result property="value" column="ID" />
+	</resultMap>
+
+	<select id="selectDistinct" resultMap="SimpleEntry_Id_Name" parameterType="map" useCache="false">
+		select distinct GKEY, ${columnName} from CITAS_LINEANAVIERA_VIEW where ${columnName} like #{columnValue} order by ${columnName} asc
+	</select>
+</mapper>

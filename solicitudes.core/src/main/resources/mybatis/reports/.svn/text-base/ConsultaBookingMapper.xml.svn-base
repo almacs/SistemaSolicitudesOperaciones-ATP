@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="mybatis.reports.ConsultaBookingMapper">
+	<!-- <cache></cache> -->
+
+	<!-- result maps -->
+	<resultMap
+		type="com.atp.solicitudes.reports.model.ConsultaBooking"
+		id="ConsultaBooking">
+		<result property="contenedor" column="CONTENEDOR" /> 
+		<result property="lhtCode" column="LHT_CODE" />
+		<result property="sslCode" column="SSL_CODE" />
+		<result property="rdDate" column="R_D_DATE" />
+		<result property="rdFlag" column="R_D_FLAG" />
+		<result property="movimiento" column="TIPO_MOV" />		
+	</resultMap>
+		
+	<!-- base queries -->		
+					
+	<sql id="consulta_booking_query" >
+<![CDATA[
+SELECT
+  UNIT_VIEW.UNIT_NBR AS CONTENEDOR,
+  UNIT_VIEW.TYPE_ISO AS LHT_CODE,
+  UNIT_VIEW.LINE_OP AS SSL_CODE,
+CASE
+  WHEN TRIM(UNIT_VIEW.CATEGORY) = 'EXPRT' THEN UNIT_VIEW.TIME_IN
+  WHEN TRIM(UNIT_VIEW.CATEGORY) = 'STRGE' THEN UNIT_VIEW.TIME_OUT
+ELSE NULL END
+AS R_D_DATE,
+CASE
+  WHEN TRIM(UNIT_VIEW.CATEGORY) = 'EXPRT' THEN 'R'
+  WHEN TRIM(UNIT_VIEW.CATEGORY) = 'STRGE' THEN 'D'
+ELSE NULL END 
+AS R_D_FLAG,
+CASE
+  WHEN TRIM(UNIT_VIEW.CATEGORY) = 'EXPRT' THEN 'RECEIVE'
+  WHEN TRIM(UNIT_VIEW.CATEGORY) = 'STRGE' THEN 'DELIVERY'
+ELSE NULL END 
+AS TIPO_MOV
+FROM
+  UNIT_VIEW
+WHERE
+  UNIT_VIEW.BOOKING = upper(#{booking}) AND UNIT_VIEW.T_STATE <> 'INBOUND'
+ORDER BY R_D_DATE
+]]>
+	</sql>
+			
+	<select id="selectConsultaBooking" resultMap="ConsultaBooking" parameterType="map" >
+		<include refid="consulta_booking_query" />
+	</select>
+	
+</mapper>

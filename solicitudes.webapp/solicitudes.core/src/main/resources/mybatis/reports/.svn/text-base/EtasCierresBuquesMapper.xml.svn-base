@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="mybatis.reports.EtasCierresBuquesMapper">
+	<!-- <cache></cache> -->
+
+	<!-- result maps -->
+	<resultMap
+		type="com.atp.solicitudes.reports.model.Etas_CierresBuques"
+		id="Etas_CierresBuques">
+		<result property="buqueViaje" column="BUQUEVIAJE" />
+		<result property="descripcion" column="DESCRIPCION" />
+		<result property="carga" column="CARGA" />
+		<result property="entrada" column="ENTRADA" />
+		<result property="salida" column="SALIDA" />
+	    <result property="fecha_Atraque" column="FECHA_ATRAQUE" />
+		<result property="fecha_Desatraque" column="FECHA_DESATRAQUE" />
+		<result property="linea" column="LINEA" />
+	</resultMap>
+	
+	<resultMap
+		type="com.atp.solicitudes.reports.model.BuqueViaje"
+		id="BuqueViaje">
+		<result property="vesselVoyage" column="VESSEL_VOYAGE" />
+		<result property="vesselCode" column="VESSEL_CODE" />
+	</resultMap>
+
+	<!-- base queries -->		
+	<sql id="base_buque_viaje_query" >
+        <![CDATA[
+		SELECT CONCAT(CONCAT(VESSEL_NAME,' '),(TRIM(SUBSTR(VESSEL_VOYAGE,4,LENGTH(VESSEL_VOYAGE)-3)))) AS VESSEL_VOYAGE ,VESSEL_VOYAGE AS VESSEL_CODE,  VESSEL_VISIT_VIEW.ETA FROM VESSEL_VISIT_VIEW 
+        WHERE TRIM(VESSEL_VISIT_VIEW.LINE_OP) NOT IN ('TSH') AND PHASE <> 'CANCELED'
+		AND (VESSEL_VISIT_VIEW.ATA > sysdate-300) AND (VESSEL_VISIT_VIEW.ETA < sysdate+30)ORDER BY VESSEL_VOYAGE
+        ]]>
+  	</sql>
+  		
+	<sql id="buque_viaje_query_test" >
+		<include refid="base_buque_viaje_query" />	
+	</sql>
+		
+		
+	<sql id="consulta_etas_query" >
+        <![CDATA[
+		SELECT CONCAT(CONCAT( CONCAT( TRIM(VESSEL_VISIT_VIEW.VESSEL_NAME) ,'-' ),VESSEL_VISIT_VIEW.VESSEL_VOYAGE), 
+		CASE 
+		    WHEN TRIM(VESSEL_VISIT_VIEW.LINE_OP) = 'CPL' AND TRIM(VESSEL_VISIT_VIEW.SERVICE) IN ('SAMEX', 'ECSA') 
+		         THEN ' [SOLO CARGA CSAV]'
+		    WHEN TRIM(VESSEL_VISIT_VIEW.LINE_OP) = 'HLC' AND TRIM(VESSEL_VISIT_VIEW.SERVICE) IN ('MGX') 
+		         THEN ' [SOLO CARGA HSD]' 
+		         ELSE ' ' END ) DESCRIPCION,
+		CONCAT(TRIM(VESSEL_VISIT_VIEW.ID_VSL), TRIM(SUBSTR(VESSEL_VOYAGE,4,LENGTH(VESSEL_VOYAGE)-3))) AS BUQUEVIAJE, 
+		TRIM(VESSEL_VISIT_VIEW.VESSEL_TYPE) AS CARGA, 
+		CASE 
+		    WHEN VESSEL_VISIT_VIEW.ATA IS NULL 
+		         THEN VESSEL_VISIT_VIEW.ETA ELSE VESSEL_VISIT_VIEW.ATA END AS ENTRADA, 
+		         VESSEL_VISIT_VIEW.START_WORK AS FECHA_ATRAQUE, VESSEL_VISIT_VIEW.END_WORK AS FECHA_DESATRAQUE, 
+		CASE 
+		    WHEN VESSEL_VISIT_VIEW.ATD IS NULL 
+		         THEN VESSEL_VISIT_VIEW.ETD ELSE VESSEL_VISIT_VIEW.ATD END AS SALIDA,
+		         TRIM(VESSEL_VISIT_VIEW.LINE_OP) AS LINEA
+		FROM VESSEL_VISIT_VIEW 
+		WHERE TRIM(VESSEL_VISIT_VIEW.LINE_OP) NOT IN ('TSH') AND PHASE <> 'CANCELED'
+   	        AND VESSEL_VISIT_VIEW.VESSEL_VOYAGE= #{buque_viaje}
+		AND (VESSEL_VISIT_VIEW.ATA > sysdate-300) AND (VESSEL_VISIT_VIEW.ETA < sysdate+30)
+		ORDER BY FECHA_ATRAQUE, ENTRADA
+		]]>
+	</sql>
+	
+	<select id="selectBuqueViaje" resultMap="BuqueViaje" >
+		<include refid="buque_viaje_query_test" />
+<!-- 		<include refid="base_buque_viaje_query "/> where eTA > sysdate -30 ORDER BY VESSEL_VOYAGE -->
+	</select>
+	
+	<select id="selectConsultaEtas" resultMap="Etas_CierresBuques" parameterType="map" >
+		<include refid="consulta_etas_query" />
+	</select>
+	
+</mapper>

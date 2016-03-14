@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/371/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/atp/solicitudes/dao/hibernate
+END
+DocumentoSolicitudDaoHibernate.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/!svn/ver/371/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/atp/solicitudes/dao/hibernate/DocumentoSolicitudDaoHibernate.java
+END
+SolicitudAppointmentDaoHibernate.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/!svn/ver/371/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/atp/solicitudes/dao/hibernate/SolicitudAppointmentDaoHibernate.java
+END
+UserDaoHibernate.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/atp/solicitudes/dao/hibernate/UserDaoHibernate.java
+END
+EmpresaDaoHibernate.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/atp/solicitudes/dao/hibernate/EmpresaDaoHibernate.java
+END
+ProfileDaoHibernate.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/atp/solicitudes/dao/hibernate/ProfileDaoHibernate.java
+END
+HolidayDaoHibernate.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/atp/solicitudes/dao/hibernate/HolidayDaoHibernate.java
+END
+SolicitudComentarioDaoHibernate.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/atp/solicitudes/dao/hibernate/SolicitudComentarioDaoHibernate.java
+END
+SolicitudDaoHibernate.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/!svn/ver/371/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/atp/solicitudes/dao/hibernate/SolicitudDaoHibernate.java
+END

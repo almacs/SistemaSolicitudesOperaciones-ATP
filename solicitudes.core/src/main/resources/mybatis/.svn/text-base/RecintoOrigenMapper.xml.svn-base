@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="mybatis.RecintoOrigenMapper">
+<!-- 	<cache></cache> -->
+
+	<!-- result maps -->
+	<resultMap type="com.atp.solicitudes.model.RecintoOrigen" id="RecintoOrigen">
+		<result property="recinto" column="RECINTO" />
+		<result property="descripcion" column="RECINTO_DESC" />
+	</resultMap>
+	
+	<!-- base queries -->
+	<sql id="base_query">select * from CITAS_RECINTOS_VIEW</sql>
+	<sql id="base_count">select count(*) from CITAS_RECINTOS_VIEW</sql>
+	
+	<select id="selectById" resultMap="RecintoOrigen" parameterType="String">
+		<include refid="base_query"/> where RECINTO = #{id}
+	</select>
+	
+	<select id="selectAll" resultMap="RecintoOrigen">
+		<include refid="base_query"/> order by RECINTO_DESC asc
+	</select>
+</mapper>

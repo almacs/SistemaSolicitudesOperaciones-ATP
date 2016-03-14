@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/webservice/types/v1
+END
+CountryType.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/webservice/types/v1/CountryType.java
+END
+LanguageListType.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/webservice/types/v1/LanguageListType.java
+END
+CountryListType.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/webservice/types/v1/CountryListType.java
+END
+AddressType.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/webservice/types/v1/AddressType.java
+END
+Empty.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/webservice/types/v1/Empty.java
+END
+StateType.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/webservice/types/v1/StateType.java
+END
+ObjectFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/webservice/types/v1/ObjectFactory.java
+END
+ScopeCoordinates.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/webservice/types/v1/ScopeCoordinates.java
+END
+GenericInvokeResponseWsType.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/webservice/types/v1/GenericInvokeResponseWsType.java
+END
+ExtendedDetailsType.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/webservice/types/v1/ExtendedDetailsType.java
+END
+ScopeCoordinateIdsWsType.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/webservice/types/v1/ScopeCoordinateIdsWsType.java
+END
+MessageType.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/webservice/types/v1/MessageType.java
+END
+MessageCollectorType.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/webservice/types/v1/MessageCollectorType.java
+END
+QueryResultType.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/webservice/types/v1/QueryResultType.java
+END
+PhonesType.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/webservice/types/v1/PhonesType.java
+END
+AddressesType.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/webservice/types/v1/AddressesType.java
+END
+ResponseType.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/webservice/types/v1/ResponseType.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/webservice/types/v1/package-info.java
+END
+LanguageType.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/webservice/types/v1/LanguageType.java
+END
+CredentialType.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/navis/argo/webservice/types/v1/CredentialType.java
+END

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="mybatis.reports.ArrivalTimeMapper">
+	<!-- <cache></cache> -->
+	<resultMap
+		type="com.atp.solicitudes.reports.model.ArrivalTimeContenedor"
+		id="ArrivalTimeContenedor">
+		<result property="appNBR" column="APP_NBR" /> 
+		<result property="contenedor" column="CONTENEDOR" />
+		<result property="createdDate" column="CREATED" />
+		<result property="inLaneDate" column="IN_LANE_DATE" />		
+	</resultMap>
+	
+	<resultMap
+		type="com.atp.solicitudes.reports.model.ArrivalTimeHoraEntradaTerminal"
+		id="ArrivalTimeHoraEntradaTerminal">
+		<result property="inLaneDate" column="IN_LANE_DATE" /> 
+	</resultMap>
+		
+	<!-- base queries -->		
+					
+	<sql id="contenedor_query" >
+<![CDATA[
+select 
+  T1.APP_NBR,T1.UNIT_NBR AS CONTENEDOR,CREATED,IN_LANE_DATE
+from 
+  gate_appointment_view T1 LEFT JOIN GATE_TRANSACTIONS_VIEW T2 ON T1.APP_NBR = T2.APP_NBR
+where 
+  T1.app_nbr = #{paseDeEntrada} AND STATE <> 'CANCEL' AND CREATED > SYSDATE - 90
+]]>
+	</sql>
+	
+	<sql id="entrada_terminal_query" >
+<![CDATA[
+select 
+  IN_LANE_DATE 
+from 
+  gate_appointment_view T1 LEFT JOIN GATE_TRANSACTIONS_VIEW T2 ON T1.APP_NBR = T2.APP_NBR
+where 
+  T1.app_nbr = #{paseDeEntrada} AND STATE <> 'CANCEL' AND CREATED > SYSDATE-90
+]]>
+	</sql>
+			
+	<select id="selectArrivalTimeContenedor" resultMap="ArrivalTimeContenedor" parameterType="map" >
+		<include refid="contenedor_query" />
+	</select>
+	
+	<select id="selectArrivalTimeHoraEntradaTerminal" resultMap="ArrivalTimeHoraEntradaTerminal" parameterType="map" >
+		<include refid="entrada_terminal_query" />
+	</select>
+</mapper>

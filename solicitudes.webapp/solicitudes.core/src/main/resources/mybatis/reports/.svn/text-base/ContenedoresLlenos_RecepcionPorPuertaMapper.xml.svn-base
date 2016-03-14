@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="mybatis.reports.ContenedoresLlenos_RecepcionPorPuertaMapper">
+	<!-- <cache></cache> -->
+
+	<!-- result maps -->
+	<resultMap
+		type="com.atp.solicitudes.reports.model.ContenedoresLlenos_RecepcionPorPuerta"
+		id="ContenedoresLlenos_RecepcionPorPuerta">
+		<result property="contenedor" column="CONTENEDOR" />
+		<result property="tipo" column="TIPO" />
+		<result property="fechaDeIngreso" column="FECHA_INGRESO_PUERTA" />
+		<result property="estatus" column="ESTATUS" />
+	</resultMap>
+
+
+	<!-- base queries -->
+	<sql id="base_query">
+<![CDATA[
+SELECT
+  T1.UNIT_NBR AS CONTENEDOR,
+  T1.TYPE_ISO AS TIPO,
+  CASE WHEN (not(T1.TIME_IN is null)) 
+    THEN T1.TIME_IN ELSE T2.IN_LANE_DATE END AS FECHA_INGRESO_PUERTA,
+ 'EXPORT' AS ESTATUS
+FROM
+  UNIT_VIEW T1
+  LEFT JOIN GATE_TRANSACTIONS_VIEW T2 ON T1.UNIT_GKEY = T2.UNIT_GKEY AND T1.IN_CARRIER_VISIT_ID = T2.CARRIER_VISIT_ID
+WHERE
+  T1.LINE_OP NOT IN ('HLC', 'NYK', 'CMA', 'TSH', 'SLI','OOL','MSL')
+  AND TRIM(T1.T_STATE) in ('YARD','ECIN')
+  AND TRIM(T1.IN_VISIT_MODE) = 'TRUCK'
+  AND TRIM(T1.CATEGORY) = 'EXPRT'
+  AND TRIM(T1.FRGHT_KIND) = 'FCL'
+  AND T1.CONSIGNEE_ID is null
+  AND T1.UNIT_NBR = upper(#{digito_verificador})
+  AND T1.T_STATE<> 'INBOUND'
+]]>
+	</sql>	
+
+	<select id="selectByDigitoVerificador" resultMap="ContenedoresLlenos_RecepcionPorPuerta" parameterType="map">
+		<include refid="base_query" />
+	</select>
+</mapper>

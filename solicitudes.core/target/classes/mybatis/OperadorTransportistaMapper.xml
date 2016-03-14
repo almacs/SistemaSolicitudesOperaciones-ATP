@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="mybatis.OperadorTransportistaMapper">
+<!-- <cache></cache> -->
+
+	<!-- result maps -->
+	<resultMap type="com.atp.solicitudes.model.OperadorTransportista" id="OperadorTransportista">
+		<result property="gKey" column="GKEY" />
+		<result property="name" column="NAME" />
+		<result property="cardId" column="CARD_ID" />
+	</resultMap>
+ 
+ 
+ 	<!-- base queries -->
+	<sql id="base_query">select * from CITAS_OPERADORES_VIEW</sql>
+	<sql id="base_count">select count(*) from CITAS_OPERADORES_VIEW</sql>
+ 
+ 
+ 	<!-- labeled queries -->
+	<select id="selectAll" resultMap="OperadorTransportista">
+		<include refid="base_query"/> 
+		order by NAME asc
+	</select>
+
+	<select id="selectById" resultMap="OperadorTransportista" parameterType="int">
+		<include refid="base_query"/> 
+		where GKEY = #{gKey}
+	</select>
+
+	<select id="selectByCardId" resultMap="OperadorTransportista" parameterType="String">
+		<include refid="base_query"/> where CARD_ID = #{cardId}
+	</select>
+
+
+	<!-- generic queries -->
+	<select id="selectCount" resultType="long" parameterType="map">
+		<include refid="base_count" />
+		<include refid="where_block" />
+	</select>
+	
+	<select id="selectOperadorTransportista_distinct" resultMap="SimpleEntry_Id_Name">
+		select distinct GKEY, ${columnName} from CITAS_OPERADORES_VIEW where  ${columnName} like #{columnValue} order by NAME asc
+	</select>
+
+	<select id="select" resultMap="OperadorTransportista" parameterType="map">
+		<include refid="base_query" />
+		<include refid="where_block" />
+		
+		<if test="_orderInfo != null">
+			<include refid="order_by_block" />
+		</if>
+		
+		<if test="_multipleOrderInfo != null">
+			<include refid="order_by_block_multiple" />
+		</if>
+	</select>
+	
+	<sql id="operador_where">
+		 
+	</sql>
+	
+	<sql id="where_block">
+		where 1 = 1 
+		<if test="gKey != null">
+			and GKEY = #{gKey}
+		</if>
+		<if test="name != null">
+			and NAME like #{name}
+		</if>
+	</sql>
+
+	<sql id="order_by_block">
+		<if test="_orderInfo.gKey">
+			GKEY ${_orderInfo.gKey}
+		</if>
+		<if test="_orderInfo.cardId">
+			NAME ${_orderInfo.name}
+		</if>
+	</sql>
+
+	<sql id="order_by_block_multiple">
+		<if test="_multipleOrderInfo">
+			order by ${_multipleOrderInfo}
+		</if>
+	</sql>
+ 
+ 
+	<!-- distinct queries -->
+	<resultMap type="com.objectwave.utils.SimpleEntry" id="SimpleEntry_Id_Name">
+		<result property="key" column="GKEY" />
+		<result property="value" column="NAME" />
+	</resultMap>
+</mapper>

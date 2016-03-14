@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/!svn/ver/371/atp/solicitudes/solicitudes.webapp/trunk/src/main/webapp/WEB-INF/email-templates
+END
+test.vm
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/158/atp/solicitudes/solicitudes.webapp/trunk/src/main/webapp/WEB-INF/email-templates/test.vm
+END
+solicitud_comentario_notification.vm
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/!svn/ver/371/atp/solicitudes/solicitudes.webapp/trunk/src/main/webapp/WEB-INF/email-templates/solicitud_comentario_notification.vm
+END

@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/!svn/ver/751/atp/solicitudes/solicitudes.webapp/trunk/src/main/webapp/WEB-INF/config
+END
+mail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/!svn/ver/371/atp/solicitudes/solicitudes.webapp/trunk/src/main/webapp/WEB-INF/config/mail.xml
+END
+servlet-context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/!svn/ver/158/atp/solicitudes/solicitudes.webapp/trunk/src/main/webapp/WEB-INF/config/servlet-context.xml
+END
+datasource-jdbc-c3p0.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/!svn/ver/158/atp/solicitudes/solicitudes.webapp/trunk/src/main/webapp/WEB-INF/config/datasource-jdbc-c3p0.xml
+END
+datasource-jdbc-tomcat.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/!svn/ver/158/atp/solicitudes/solicitudes.webapp/trunk/src/main/webapp/WEB-INF/config/datasource-jdbc-tomcat.xml
+END
+applicationContext-custom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/!svn/ver/158/atp/solicitudes/solicitudes.webapp/trunk/src/main/webapp/WEB-INF/config/applicationContext-custom.xml
+END
+applicationContext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/!svn/ver/158/atp/solicitudes/solicitudes.webapp/trunk/src/main/webapp/WEB-INF/config/applicationContext.xml
+END
+reports.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/!svn/ver/751/atp/solicitudes/solicitudes.webapp/trunk/src/main/webapp/WEB-INF/config/reports.xml
+END
+spring-security.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/!svn/ver/158/atp/solicitudes/solicitudes.webapp/trunk/src/main/webapp/WEB-INF/config/spring-security.xml
+END
+parsers-formatters.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/!svn/ver/751/atp/solicitudes/solicitudes.webapp/trunk/src/main/webapp/WEB-INF/config/parsers-formatters.xml
+END
+solicitudes.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/!svn/ver/158/atp/solicitudes/solicitudes.webapp/trunk/src/main/webapp/WEB-INF/config/solicitudes.xml
+END
+datasource-jdbc.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/!svn/ver/158/atp/solicitudes/solicitudes.webapp/trunk/src/main/webapp/WEB-INF/config/datasource-jdbc.xml
+END
+datasource-jdbc-dbcp.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/!svn/ver/158/atp/solicitudes/solicitudes.webapp/trunk/src/main/webapp/WEB-INF/config/datasource-jdbc-dbcp.xml
+END
+n4-ws-client.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/158/atp/solicitudes/solicitudes.webapp/trunk/src/main/webapp/WEB-INF/config/n4-ws-client.xml
+END
+n4.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/!svn/ver/371/atp/solicitudes/solicitudes.webapp/trunk/src/main/webapp/WEB-INF/config/n4.xml
+END

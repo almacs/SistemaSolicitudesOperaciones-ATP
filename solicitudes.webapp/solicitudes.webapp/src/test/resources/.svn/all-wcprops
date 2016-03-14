@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/!svn/ver/158/atp/solicitudes/solicitudes.webapp/trunk/src/test/resources
+END
+log4j.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/!svn/ver/158/atp/solicitudes/solicitudes.webapp/trunk/src/test/resources/log4j.xml
+END
+solicitudes.properties
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/!svn/ver/158/atp/solicitudes/solicitudes.webapp/trunk/src/test/resources/solicitudes.properties
+END

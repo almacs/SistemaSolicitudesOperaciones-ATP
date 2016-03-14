@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="mybatis.reports.ConsultaOperativoMapper">
+	<!-- <cache></cache> -->
+
+	<!-- result maps -->
+	<resultMap
+		type="com.atp.solicitudes.reports.model.ConsultaOperativo"
+		id="ConsultaOperativo">
+		<result property="contenedor" column="CONTENEDOR" />
+		<result property="buqueViaje" column="BUQUEVIAJE" />
+		<result property="fechaOperativo" column="FECHA_OPE" />
+		<result property="estatus" column="STATUS" />
+		<result property="fechaLiberado" column="LIBERADO" />
+	</resultMap>
+	
+	<resultMap
+		type="com.atp.solicitudes.reports.model.BuqueViaje"
+		id="BuqueViaje">
+		<result property="vesselVoyage" column="VESSEL_VOYAGE" />
+		<result property="vesselCode" column="VESSEL_CODE" />
+	</resultMap>
+
+	<!-- base queries -->		
+	<sql id="base_buque_viaje_query" >
+		SELECT CONCAT(CONCAT(VESSEL_NAME,' '),VOYAGE_IN) AS VESSEL_VOYAGE ,VESSEL_VOYAGE AS VESSEL_CODE FROM VESSEL_VISIT_VIEW ORDER BY VESSEL_CODE 
+  	</sql>
+  		
+	<sql id="buque_viaje_query_test" >
+		<include refid="base_buque_viaje_query" />	
+	</sql>
+		
+		
+	<sql id="consulta_importacion_query" >
+	<![CDATA[
+	SELECT
+	  T1.UNIT_NBR AS CONTENEDOR,
+	  T1.IN_VISIT_DETAIL AS BUQUEVIAJE,
+	  TO_CHAR(T1.FECHA_OPERATIVO,'yyyy-mm-dd hh:mm:ss') AS FECHA_OPE,
+	  T3.STATUS,
+	  TO_CHAR(T3.RELEASE_DATE, 'yyyy-mm-dd hh:mm:ss') AS LIBERADO
+	FROM
+	  UNIT_VIEW T1 INNER JOIN EVENT_VIEW T2 ON T1.UNIT_GKEY = T2.UNIT_GKEY
+	  LEFT OUTER JOIN UNIT_HOLDS_VIEW T3 ON T1.UNIT_GKEY = T3.UNIT_GKEY
+	  LEFT OUTER JOIN VESSEL_VISIT_VIEW T4 ON T1.IN_VISIT_DETAIL = T4.VESSEL_VOYAGE
+	WHERE
+	  (T1.CATEGORY in ('IMPRT','TRSHP')) AND (T1.FRGHT_KIND = 'FCL') AND (T2.EVENT_ID = 'OPERATIVO')
+	  AND (T3.HOLD_TYPE_GKEY = 3741) AND (CONCAT(CONCAT(T4.VESSEL_NAME,' '),T4.VOYAGE_IN) = #{buque_viaje})
+	  AND T3.RELEASE_NOTES <> 'NA'
+	ORDER BY CONTENEDOR
+	]]>
+	</sql>
+		
+	<sql id="consulta_exportacion_query">
+	<![CDATA[	
+	SELECT
+	  T1.UNIT_NBR AS CONTENEDOR,
+	  T1.OUT_VISIT_DETAIL AS BUQUEVIAJE,
+	  TO_CHAR(T1.FECHA_OPERATIVO,'yyyy-mm-dd hh:mm:ss') AS FECHA_OPE,
+	  T3.STATUS,
+	  TO_CHAR(T3.RELEASE_DATE, 'yyyy-mm-dd hh:mm:ss') AS LIBERADO
+	FROM
+	  UNIT_VIEW T1 INNER JOIN EVENT_VIEW T2 ON T1.UNIT_GKEY = T2.UNIT_GKEY
+	  LEFT OUTER JOIN UNIT_HOLDS_VIEW T3 ON T1.UNIT_GKEY = T3.UNIT_GKEY
+	  LEFT OUTER JOIN VESSEL_VISIT_VIEW T4 ON T1.OUT_VISIT_DETAIL = T4.VESSEL_VOYAGE
+	WHERE
+	  (T1.CATEGORY in ('EXPRT')) AND (T1.FRGHT_KIND = 'FCL') AND (T3.HOLD_TYPE_GKEY = 3741)
+	  AND t1.fecha_operativo > sysdate -60
+	  AND (T2.EVENT_ID = 'OPERATIVO')
+	  AND T3.RELEASE_NOTES <> 'NA'
+	ORDER BY
+	  CONTENEDOR	
+	]]>	
+	</sql>	
+	
+	<select id="selectBuqueViaje" resultMap="BuqueViaje" >
+		<include refid="buque_viaje_query_test" />
+<!-- 		<include refid="base_buque_viaje_query "/> where eTA > sysdate -30 ORDER BY VESSEL_VOYAGE -->
+	</select>
+	
+	<select id="selectConsultaOperativoImportacion" resultMap="ConsultaOperativo" parameterType="map" >
+		<include refid="consulta_importacion_query" />
+	</select>
+	
+	<select id="selectConsultaOperativoExportacion" resultMap="ConsultaOperativo" >
+		<include refid="consulta_exportacion_query" />
+	</select>
+</mapper>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="mybatis.BookingItemMapper">
+<!-- 	<cache></cache> -->
+
+	<!-- result maps -->
+	<resultMap type="com.atp.solicitudes.model.BookingItem" id="BookingItem">
+		<result property="id" column="BOOKING_ITEM_GKEY" />
+		<result property="bookingGKey" column="BOOKING_GKEY" />
+		<result property="typeIso" column="TYPE_ISO" />
+		<result property="cmdy" column="CMDY" />
+		<result property="tempRequired" column="TEMP_REQUIRED" />
+		<result property="isDim" column="IS_DIM" />
+		<result property="hzrdGKey" column="HZRD_GKEY" />
+		<result property="grade" column="GRADE" />
+		<result property="imos" column="IMOS" />
+		<result property="marinePollutants" column="MARINE_POLLUTANTS" />
+	</resultMap>
+
+	<resultMap type="com.atp.solicitudes.model.BookingItem" id="CitasBookingItem">
+		<result property="id" column="BOOKING_ITEM_GKEY" />
+		<result property="bookingGKey" column="BOOKING_GKEY" />
+		<result property="typeIso" column="TYPE_ISO" />
+	</resultMap>
+	
+	<!-- base queries -->
+	<sql id="base_query">select * from BOOKING_ITEM_VIEW</sql>
+	<sql id="base_query_type">select * from CITAS_BOOKING_ITEM_VIEW</sql>
+	<sql id="base_count">select count(*) from BOOKING_ITEM_VIEW</sql>
+	
+	<select id="selectById" resultMap="BookingItem" parameterType="int">
+		<include refid="base_query"/> where BOOKING_ITEM_GKEY = #{id}
+	</select>
+	
+	
+	<select id="selectByBookingGkey" resultMap="CitasBookingItem" parameterType="map">
+		<include refid="base_query"/> where BOOKING_GKEY = #{BOOKING_GKEY} and TYPE_ISO=#{TYPE_ISO}
+	</select>
+	
+	<select id="selectByNombre" resultMap="BookingItem" parameterType="String">
+		<include refid="base_query"/> where TYPE_ISO = #{nombre}
+	</select>
+
+	<!-- generic queries -->
+	<select id="selectCount" resultType="long" parameterType="map">
+		<include refid="base_count" />
+		<include refid="where_block" />
+	</select>
+
+	<select id="selectType" resultMap="CitasBookingItem" parameterType="map">
+		<include refid="base_query_type" />
+		<include refid="where_block_type" />
+	</select>
+		
+	<select id="select" resultMap="BookingItem" parameterType="map">
+		<include refid="base_query" />
+		<include refid="where_block" />
+
+		<if test="_multipleOrderInfo != null">
+			<include refid="order_by_block_multiple" />
+		</if>
+	</select>
+	
+	<sql id="where_block">
+		where 1 = 1
+
+		<if test="id != null">
+			and BOOKING_ITEM_GKEY = #{id}
+		</if>
+		<if test="bookingGKey != null">
+			and BOOKING_GKEY like #{bookingGKey}
+		</if>
+	</sql>
+	
+	<sql id="where_block_type">
+		where DISPONIBLE = 1
+		<if test="id != null">
+			and BOOKING_ITEM_GKEY = #{id}
+		</if>
+		<if test="bookingGKey != null">
+			and BOOKING_GKEY = #{bookingGKey}
+		</if>
+	</sql>
+	<sql id="order_by_block_multiple">
+		<if test="_multipleOrderInfo">
+			order by ${_multipleOrderInfo}
+		</if>
+	</sql>
+</mapper>

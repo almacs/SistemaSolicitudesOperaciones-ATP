@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="mybatis.TipoRecepcionVacioMapper">
+<!-- 	<cache></cache> -->
+
+	<!-- result maps -->
+	<resultMap type="com.atp.solicitudes.model.TipoRecepcionVacio" id="TipoRecepcionVacio">
+		<result property="id" column="TYPE_EQUIP_GKEY" />
+		<result property="nombre" column="TYPE_ISO" />
+	</resultMap>
+	
+	<!-- base queries -->
+	<sql id="base_query">select * from CITAS_LHT_VIEW</sql>
+	<sql id="base_count">select count(*) from CITAS_LHT_VIEW</sql>
+	
+	<!-- labeled queries -->
+	<select id="selectById" resultMap="TipoRecepcionVacio" parameterType="String">
+		<include refid="base_query"/> where TYPE_EQUIP_GKEY = #{id}
+	</select>
+	
+	<select id="selectByNombre" resultMap="TipoRecepcionVacio" parameterType="String">
+		<include refid="base_query"/> where TYPE_ISO = #{nombre}
+	</select>
+
+	<!-- distinct queries -->
+	<resultMap type="com.objectwave.utils.SimpleEntry" id="SimpleEntry_Id_Name">
+		<result property="key" column="TYPE_EQUIP_GKEY" />
+		<result property="value" column="TYPE_ISO" />
+	</resultMap>
+
+	<select id="selectDistinct" resultMap="SimpleEntry_Id_Name" parameterType="map" useCache="false">
+		select distinct TYPE_EQUIP_GKEY, ${columnName} from CITAS_LHT_VIEW where ${columnName} like #{columnValue} order by ${columnName} asc
+	</select>
+</mapper>
