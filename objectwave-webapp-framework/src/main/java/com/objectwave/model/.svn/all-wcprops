@@ -1,23 +1,23 @@
 K 25
 svn:wc:ra_dav:version-url
-V 86
-/!svn/ver/371/ow/webapp-framework/branches/version2/src/main/java/com/objectwave/model
+V 116
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/objectwave-webapp-framework/src/main/java/com/objectwave/model
 END
 ActivityLogEntry.java
 K 25
 svn:wc:ra_dav:version-url
-V 108
-/!svn/ver/178/ow/webapp-framework/branches/version2/src/main/java/com/objectwave/model/ActivityLogEntry.java
+V 138
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/objectwave-webapp-framework/src/main/java/com/objectwave/model/ActivityLogEntry.java
 END
 SystemProperty.java
 K 25
 svn:wc:ra_dav:version-url
-V 106
-/!svn/ver/178/ow/webapp-framework/branches/version2/src/main/java/com/objectwave/model/SystemProperty.java
+V 136
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/objectwave-webapp-framework/src/main/java/com/objectwave/model/SystemProperty.java
 END
 GenericBlob.java
 K 25
 svn:wc:ra_dav:version-url
-V 103
-/!svn/ver/371/ow/webapp-framework/branches/version2/src/main/java/com/objectwave/model/GenericBlob.java
+V 133
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/objectwave-webapp-framework/src/main/java/com/objectwave/model/GenericBlob.java
 END

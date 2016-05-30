@@ -31,6 +31,10 @@ public class SolicitudAppointment implements Serializable, ActivityLogAppender
 	
 	public static final int NBR_LENGTH 	= 20;
 	public static final int ID_AGENT_LENGTH =20;
+
+	public static final int CODIGO_ID_LENGTH  	= 10;
+	public static final int PLACAS_LENGTH  	= 10;
+	
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
@@ -48,6 +52,30 @@ public class SolicitudAppointment implements Serializable, ActivityLogAppender
 
 	@Column(name = "appointment_nbr", nullable = false, length = NBR_LENGTH)
 	private String appointmentNbr;
+
+	@Column(name= "placas", nullable = true, length = CODIGO_ID_LENGTH)
+	private String placas;
+
+	@Column(name = "operador_id", nullable = true)
+	private Integer operadorId;
+
+	@Column(name = "transportista_id", nullable = true)
+	private Integer transportistaId;
+
+	@Column(name = "date_scheduled", nullable = true)
+	private Date dateScheduled;
+	
+	@Column(name= "contenedor", nullable = true)
+	private String contenedor;
+	
+	@Column(name= "booking", nullable = true)
+	private String booking;
+	
+	@Column(name= "buque_viaje", nullable = true)
+	private String buqueViaje;
+	
+	@Column(name= "bl", nullable = true)
+	private String bl;
 	
 	@Column(name = "cancellation_id", nullable = false)
 	private CancellationMotiveEnum cancellationMotive; 
@@ -203,8 +231,71 @@ public class SolicitudAppointment implements Serializable, ActivityLogAppender
 	
 	public void fillFromCancel(JsonNode node, Map<String,Object> context) throws DomainModelException, Exception
 	{
-
 		setCancellationMotive(CancellationMotiveEnum.withId(node.get("cancelSolicitudId").asInt()));
-
 	}
+	
+	public Date getDateScheduled() {
+		return dateScheduled;
+	}
+
+	public void setDateScheduled(Date dateScheduled) {
+		this.dateScheduled = dateScheduled;
+	}
+
+	public Integer getOperadorId() {
+		return operadorId;
+	}
+
+	public Integer getTransportistaId() {
+		return transportistaId;
+	}
+
+	public void setTransportistaId(Integer transportistaId) {
+		this.transportistaId = transportistaId;
+	}
+
+	public void setOperadorId(Integer operadorId) {
+		this.operadorId = operadorId;
+	}
+	
+	public String getPlacas() {
+		return placas;
+	}
+
+	public void setPlacas(String placas) {
+		this.placas = placas;
+	}
+
+	public String getContenedor() {
+		return contenedor;
+	}
+
+	public void setContenedor(String contenedor) {
+		this.contenedor = contenedor;
+	}
+
+	public String getBooking() {
+		return booking;
+	}
+
+	public void setBooking(String booking) {
+		this.booking = booking;
+	}
+
+	public String getBuqueViaje() {
+		return buqueViaje;
+	}
+
+	public void setBuqueViaje(String buqueViaje) {
+		this.buqueViaje = buqueViaje;
+	}
+
+	public String getBl() {
+		return bl;
+	}
+
+	public void setBl(String bl) {
+		this.bl = bl;
+	}
+	
 }

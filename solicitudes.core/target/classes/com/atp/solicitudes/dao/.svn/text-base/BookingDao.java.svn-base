@@ -8,6 +8,7 @@ import com.objectwave.utils.SimpleEntry;
 public interface BookingDao
 {
 	Booking getWithId(Integer aValue) throws Exception;
-	public Booking getWithNombre(String aValue) throws Exception;
+	Booking getWithNombre(String aValue) throws Exception;
     List<SimpleEntry> getDistinct(String match, int maxResults) throws Exception;
+    List<Booking> getEqualsByName(String name, int maxResults) throws Exception;
 }

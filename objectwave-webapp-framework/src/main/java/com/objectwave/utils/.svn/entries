@@ -1,15 +1,15 @@
 10
 
 dir
-755
-https://svnserver.objectwave.com/ow/webapp-framework/branches/version2/src/main/java/com/objectwave/utils
-https://svnserver.objectwave.com
+64
+https://testingatp.svn.beanstalkapp.com/atp-solicitudes/branches/requerimiento-5/objectwave-webapp-framework/src/main/java/com/objectwave/utils
+https://testingatp.svn.beanstalkapp.com/atp-solicitudes
 
 
 
-2014-07-01T23:29:28.822841Z
-178
-jhinojosa
+2015-09-16T12:36:46.685933Z
+19
+mach
 
 
 svn:special svn:externals svn:needs-lock
@@ -24,7 +24,7 @@ svn:special svn:externals svn:needs-lock
 
 
 
-14428335-e503-4214-8c7d-7500f3910c27
+bb2d65ee-dfec-4891-9b67-b06398523463
 
 AppContextProvider.java
 file
@@ -32,12 +32,12 @@ file
 
 
 
-2015-03-06T21:24:52.622000Z
+2016-02-07T23:42:35.813000Z
 91816542f1f0be0608d98c98d18d8169
-2014-07-01T23:29:28.822841Z
-178
-jhinojosa
-
+2015-09-16T12:36:46.685933Z
+19
+mach
+has-props
 
 
 
@@ -66,12 +66,12 @@ file
 
 
 
-2015-03-06T21:24:52.812000Z
+2016-02-07T23:42:35.797000Z
 21bbabf63cd2d8c8b44a1f612d120957
-2014-07-01T23:29:28.822841Z
-178
-jhinojosa
-
+2015-09-16T12:36:46.685933Z
+19
+mach
+has-props
 
 
 
@@ -100,12 +100,12 @@ file
 
 
 
-2015-03-06T21:24:52.688000Z
+2016-02-07T23:42:35.688000Z
 51f01dc3aac707b4781d724f6eb0eec3
-2014-07-01T23:29:28.822841Z
-178
-jhinojosa
-
+2015-09-16T12:36:46.685933Z
+19
+mach
+has-props
 
 
 
@@ -134,12 +134,12 @@ file
 
 
 
-2015-03-06T21:24:52.654000Z
+2016-02-07T23:42:35.844000Z
 928b3428f28e2751f8dc1c77bc30e3ff
-2014-07-01T23:29:28.822841Z
-178
-jhinojosa
-
+2015-09-16T12:36:46.685933Z
+19
+mach
+has-props
 
 
 
@@ -168,12 +168,12 @@ file
 
 
 
-2015-03-06T21:24:52.727000Z
+2016-02-07T23:42:35.719000Z
 3b1d52f7c26bd6d13d03f40e6e3e9f36
-2014-07-01T23:29:28.822841Z
-178
-jhinojosa
-
+2015-09-16T12:36:46.685933Z
+19
+mach
+has-props
 
 
 
@@ -202,12 +202,12 @@ file
 
 
 
-2015-03-06T21:24:52.756000Z
+2016-02-07T23:42:35.751000Z
 af788a4c09dc2496ad92cdf220fde7b0
-2014-07-01T23:29:28.822841Z
-178
-jhinojosa
-
+2015-09-16T12:36:46.685933Z
+19
+mach
+has-props
 
 
 

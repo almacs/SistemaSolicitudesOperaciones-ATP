@@ -1,23 +1,23 @@
 K 25
 svn:wc:ra_dav:version-url
-V 94
-/!svn/ver/178/ow/webapp-framework/branches/version2/src/main/java/com/objectwave/dao/hibernate
+V 124
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/objectwave-webapp-framework/src/main/java/com/objectwave/dao/hibernate
 END
 ActivityLogEntryDaoHibernate.java
 K 25
 svn:wc:ra_dav:version-url
-V 128
-/!svn/ver/178/ow/webapp-framework/branches/version2/src/main/java/com/objectwave/dao/hibernate/ActivityLogEntryDaoHibernate.java
+V 158
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/objectwave-webapp-framework/src/main/java/com/objectwave/dao/hibernate/ActivityLogEntryDaoHibernate.java
 END
 SystemPropertyDaoHibernate.java
 K 25
 svn:wc:ra_dav:version-url
-V 126
-/!svn/ver/178/ow/webapp-framework/branches/version2/src/main/java/com/objectwave/dao/hibernate/SystemPropertyDaoHibernate.java
+V 156
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/objectwave-webapp-framework/src/main/java/com/objectwave/dao/hibernate/SystemPropertyDaoHibernate.java
 END
 GenericBlobDaoHibernate.java
 K 25
 svn:wc:ra_dav:version-url
-V 123
-/!svn/ver/178/ow/webapp-framework/branches/version2/src/main/java/com/objectwave/dao/hibernate/GenericBlobDaoHibernate.java
+V 153
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/objectwave-webapp-framework/src/main/java/com/objectwave/dao/hibernate/GenericBlobDaoHibernate.java
 END

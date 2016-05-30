@@ -1,71 +1,71 @@
 K 25
 svn:wc:ra_dav:version-url
-V 106
-/!svn/ver/371/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/atp/solicitudes/reports/dao/mybatis
+V 124
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/solicitudes.core/src/main/java/com/atp/solicitudes/reports/dao/mybatis
 END
 ConsultaBLDaoMyBatis.java
 K 25
 svn:wc:ra_dav:version-url
-V 132
-/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/atp/solicitudes/reports/dao/mybatis/ConsultaBLDaoMyBatis.java
+V 150
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/solicitudes.core/src/main/java/com/atp/solicitudes/reports/dao/mybatis/ConsultaBLDaoMyBatis.java
 END
 ConsultaOperativoDaoMyBatis.java
 K 25
 svn:wc:ra_dav:version-url
-V 139
-/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/atp/solicitudes/reports/dao/mybatis/ConsultaOperativoDaoMyBatis.java
-END
-ArrivalTimeLlegadaAlCentroReguladorDaoMyBatis.java
-K 25
-svn:wc:ra_dav:version-url
 V 157
-/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/atp/solicitudes/reports/dao/mybatis/ArrivalTimeLlegadaAlCentroReguladorDaoMyBatis.java
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/solicitudes.core/src/main/java/com/atp/solicitudes/reports/dao/mybatis/ConsultaOperativoDaoMyBatis.java
 END
 ContenedoresLlenos_UltimoEmbarqueDaoMyBatis.java
 K 25
 svn:wc:ra_dav:version-url
-V 155
-/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/atp/solicitudes/reports/dao/mybatis/ContenedoresLlenos_UltimoEmbarqueDaoMyBatis.java
+V 173
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/solicitudes.core/src/main/java/com/atp/solicitudes/reports/dao/mybatis/ContenedoresLlenos_UltimoEmbarqueDaoMyBatis.java
+END
+ArrivalTimeLlegadaAlCentroReguladorDaoMyBatis.java
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/solicitudes.core/src/main/java/com/atp/solicitudes/reports/dao/mybatis/ArrivalTimeLlegadaAlCentroReguladorDaoMyBatis.java
 END
 ContenedoresLlenos_RecepcionPorPuertaDaoMyBatis.java
 K 25
 svn:wc:ra_dav:version-url
-V 159
-/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/atp/solicitudes/reports/dao/mybatis/ContenedoresLlenos_RecepcionPorPuertaDaoMyBatis.java
+V 177
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/solicitudes.core/src/main/java/com/atp/solicitudes/reports/dao/mybatis/ContenedoresLlenos_RecepcionPorPuertaDaoMyBatis.java
 END
 PaseDeEntradaReportDaoMyBatis.java
 K 25
 svn:wc:ra_dav:version-url
-V 141
-/!svn/ver/371/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/atp/solicitudes/reports/dao/mybatis/PaseDeEntradaReportDaoMyBatis.java
+V 159
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/solicitudes.core/src/main/java/com/atp/solicitudes/reports/dao/mybatis/PaseDeEntradaReportDaoMyBatis.java
 END
 ArrivalTimeDaoMyBatis.java
 K 25
 svn:wc:ra_dav:version-url
-V 133
-/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/atp/solicitudes/reports/dao/mybatis/ArrivalTimeDaoMyBatis.java
+V 151
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/solicitudes.core/src/main/java/com/atp/solicitudes/reports/dao/mybatis/ArrivalTimeDaoMyBatis.java
 END
 ConsultaBookingDaoMyBatis.java
 K 25
 svn:wc:ra_dav:version-url
-V 137
-/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/atp/solicitudes/reports/dao/mybatis/ConsultaBookingDaoMyBatis.java
+V 155
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/solicitudes.core/src/main/java/com/atp/solicitudes/reports/dao/mybatis/ConsultaBookingDaoMyBatis.java
 END
 ContenedoresLlenos_UltimoDesembarqueDaoMyBatis.java
 K 25
 svn:wc:ra_dav:version-url
-V 158
-/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/atp/solicitudes/reports/dao/mybatis/ContenedoresLlenos_UltimoDesembarqueDaoMyBatis.java
+V 176
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/solicitudes.core/src/main/java/com/atp/solicitudes/reports/dao/mybatis/ContenedoresLlenos_UltimoDesembarqueDaoMyBatis.java
 END
 ContenedoresLlenos_EntregaPorPuertaDaoMyBatis.java
 K 25
 svn:wc:ra_dav:version-url
-V 157
-/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/atp/solicitudes/reports/dao/mybatis/ContenedoresLlenos_EntregaPorPuertaDaoMyBatis.java
+V 175
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/solicitudes.core/src/main/java/com/atp/solicitudes/reports/dao/mybatis/ContenedoresLlenos_EntregaPorPuertaDaoMyBatis.java
 END
 EtasCierresBuquesDaoMyBatis.java
 K 25
 svn:wc:ra_dav:version-url
-V 139
-/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/atp/solicitudes/reports/dao/mybatis/EtasCierresBuquesDaoMyBatis.java
+V 157
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/solicitudes.core/src/main/java/com/atp/solicitudes/reports/dao/mybatis/EtasCierresBuquesDaoMyBatis.java
 END

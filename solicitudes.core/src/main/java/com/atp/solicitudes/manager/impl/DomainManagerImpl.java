@@ -515,7 +515,7 @@ public class DomainManagerImpl extends AppContextProvider implements DomainManag
 		//TODO include valid dates for editing a solicitud
 		 
 		int minutesToNewScheduleDate = DateUtils.getMinutesBetweenDates(new Date(),newScheduleDate);
-		
+		/* Comentado para arreglarse cuando se termine la nueva rutina
 		if(solicitud.getDateScheduled()!=null)
 		{
 			int minutesToCurrentScheduleDate = DateUtils.getMinutesBetweenDates(new Date(),solicitud.getDateScheduled());
@@ -523,7 +523,7 @@ public class DomainManagerImpl extends AppContextProvider implements DomainManag
 			if (minutesToCurrentScheduleDate < 240 || minutesToCurrentScheduleDate < 0)
 				throw new DomainModelException("Solicitud_appointment_datetime_revokes_edition");
 		}
-		
+		*/
 		if  (minutesToNewScheduleDate < 0)
 			throw new DomainModelException("Solicitud_appointment_datetime_revokes_edition");
 		 

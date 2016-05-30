@@ -81,6 +81,7 @@ public interface DomainManagerN4
 	// Booking
 	Booking getBookingWithId(Integer id) throws Exception;
 	List<SimpleEntry> getBookingByPattern(String match, Integer maxResults) throws Exception;
+	List<Booking> getBookingByName(String name, Integer maxResults) throws Exception;
 
 	// BookingItem
 	BookingItem getBookingItemWithId(Integer id) throws Exception;

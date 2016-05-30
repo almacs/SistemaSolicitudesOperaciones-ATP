@@ -40,4 +40,8 @@
 	<select id="selectDistinct" resultMap="SimpleEntry_Id_Name" parameterType="map" useCache="false">
 		select distinct BOOKING_GKEY, ${columnName} from BOOKING_VIEW where ${columnName} like #{columnValue} order by ${columnName} asc
 	</select>
+	
+	<select id="selectEqualsByName" resultMap="Booking" parameterType="map" useCache="false">
+		select BOOKING_GKEY, ${columnName}, LINE_OP from BOOKING_VIEW where ${columnName} = #{columnValue} order by LINE_OP asc
+	</select>
 </mapper>

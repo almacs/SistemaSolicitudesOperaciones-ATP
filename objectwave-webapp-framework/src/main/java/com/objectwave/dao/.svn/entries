@@ -1,15 +1,15 @@
 10
 
 dir
-755
-https://svnserver.objectwave.com/ow/webapp-framework/branches/version2/src/main/java/com/objectwave/dao
-https://svnserver.objectwave.com
+64
+https://testingatp.svn.beanstalkapp.com/atp-solicitudes/branches/requerimiento-5/objectwave-webapp-framework/src/main/java/com/objectwave/dao
+https://testingatp.svn.beanstalkapp.com/atp-solicitudes
 
 
 
-2014-07-01T23:29:28.822841Z
-178
-jhinojosa
+2015-09-16T12:36:46.685933Z
+19
+mach
 
 
 svn:special svn:externals svn:needs-lock
@@ -24,7 +24,7 @@ svn:special svn:externals svn:needs-lock
 
 
 
-14428335-e503-4214-8c7d-7500f3910c27
+bb2d65ee-dfec-4891-9b67-b06398523463
 
 ActivityLogEntryDao.java
 file
@@ -32,12 +32,12 @@ file
 
 
 
-2015-03-06T21:24:53.743000Z
+2016-02-07T23:42:37.545000Z
 3c49b7a222760cb9761ba30287ed4068
-2014-07-01T23:29:28.822841Z
-178
-jhinojosa
-
+2015-09-16T12:36:46.685933Z
+19
+mach
+has-props
 
 
 
@@ -66,12 +66,12 @@ file
 
 
 
-2015-03-06T21:24:53.253000Z
+2016-02-07T23:42:36.718000Z
 cb7cf2e4ad614eb9d213a4bb5cd1aed0
-2014-07-01T23:29:28.822841Z
-178
-jhinojosa
-
+2015-09-16T12:36:46.685933Z
+19
+mach
+has-props
 
 
 
@@ -100,12 +100,12 @@ file
 
 
 
-2015-03-06T21:24:53.787000Z
+2016-02-07T23:42:36.499000Z
 66ca2ec779a6b639ea9e1ebcc9f44b2d
-2014-07-01T23:29:28.822841Z
-178
-jhinojosa
-
+2015-09-16T12:36:46.685933Z
+19
+mach
+has-props
 
 
 
@@ -134,12 +134,12 @@ file
 
 
 
-2015-03-06T21:24:53.914000Z
+2016-02-07T23:42:36.687000Z
 973daab8e1bee8a137f712886df66232
-2014-07-01T23:29:28.822841Z
-178
-jhinojosa
-
+2015-09-16T12:36:46.685933Z
+19
+mach
+has-props
 
 
 

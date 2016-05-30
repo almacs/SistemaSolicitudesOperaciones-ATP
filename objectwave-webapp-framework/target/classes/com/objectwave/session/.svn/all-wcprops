@@ -1,35 +1,35 @@
 K 25
 svn:wc:ra_dav:version-url
-V 88
-/!svn/ver/178/ow/webapp-framework/branches/version2/src/main/java/com/objectwave/session
+V 118
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/objectwave-webapp-framework/src/main/java/com/objectwave/session
 END
 SessionModelUser.java
 K 25
 svn:wc:ra_dav:version-url
-V 110
-/!svn/ver/178/ow/webapp-framework/branches/version2/src/main/java/com/objectwave/session/SessionModelUser.java
+V 140
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/objectwave-webapp-framework/src/main/java/com/objectwave/session/SessionModelUser.java
 END
 SessionInfo.java
 K 25
 svn:wc:ra_dav:version-url
-V 105
-/!svn/ver/178/ow/webapp-framework/branches/version2/src/main/java/com/objectwave/session/SessionInfo.java
+V 135
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/objectwave-webapp-framework/src/main/java/com/objectwave/session/SessionInfo.java
 END
 SessionInfoImpl.java
 K 25
 svn:wc:ra_dav:version-url
-V 109
-/!svn/ver/178/ow/webapp-framework/branches/version2/src/main/java/com/objectwave/session/SessionInfoImpl.java
+V 139
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/objectwave-webapp-framework/src/main/java/com/objectwave/session/SessionInfoImpl.java
 END
 SessionModel.java
 K 25
 svn:wc:ra_dav:version-url
-V 106
-/!svn/ver/178/ow/webapp-framework/branches/version2/src/main/java/com/objectwave/session/SessionModel.java
+V 136
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/objectwave-webapp-framework/src/main/java/com/objectwave/session/SessionModel.java
 END
 SessionModelImpl.java
 K 25
 svn:wc:ra_dav:version-url
-V 110
-/!svn/ver/178/ow/webapp-framework/branches/version2/src/main/java/com/objectwave/session/SessionModelImpl.java
+V 140
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/objectwave-webapp-framework/src/main/java/com/objectwave/session/SessionModelImpl.java
 END

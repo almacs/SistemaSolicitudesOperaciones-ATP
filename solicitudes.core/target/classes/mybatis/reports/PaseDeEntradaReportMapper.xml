@@ -50,6 +50,7 @@
 		<result property="uv_unitGkey" column="UNIT_GKEY" />
 		<result property="uv_consigneeId" column="CONSIGNEE_ID" />
 		<result property="uv_category" column="CATEGORY" />
+		<result property="uv_etiquetaUndg" column="ETIQUETA_UN" />
 	
 		<result property="bv_notes" column="BNOTES" />
 		 
@@ -65,6 +66,7 @@
 		<result property="vvv_vesselVoyage" column="VESSEL_VOYAGE" />
 		<result property="vvv_vesselName" column="VESSEL_NAME" />
 		<result property="vvv_voyageIn" column="VOYAGE_IN" />
+		<result property="vvv_voyageOut" column="VOYAGE_OUT" />
 		
 		<result property="uhv_hzrdGkey" column="HZRD_GKEY" />
 		<result property="uhv_imdgClass" column="IMDG_CLASS" />
@@ -92,9 +94,9 @@
         UV.WEIGHT, VVV.VESSEL_VOYAGE,UV.PREVIO_EXPRESS,
         UV.RECINTO_TIT, GAV.START_DATE, GAV.END_DATE, UV.HZRD_GKEY, BV.NOTES as BNOTES, GAV.GATE_ID,GAV.NOTES as GNOTES,
         GAV.BOOKING_TYPE_ISO, UV.SPECIAL, GAV.STATE, GAV.BOOKING_TYPE_DESCRIPTION, BIV.GRADE,
-        UV.OOG_LEFT, UV.OOG_RIGHT, UV.OOG_TOP, UV.OOG_BACK, UV.OOG_FRONT,
+        UV.OOG_LEFT, UV.OOG_RIGHT, UV.OOG_TOP, UV.OOG_BACK, UV.OOG_FRONT, UV.ETIQUETA_UN,
         UV.IS_DIM, GAV.DRIVER_LICENSE_NBR, BIV.REMARKS, UV.O2_PCT, UV.CO2_PCT, VVV.VESSEL_NAME,
-        VVV.VOYAGE_IN, UV.VENT_REQUIRED_PCT, UV.VENT_UNIT, UV.COMPLEX_POSITION, UV.CONSIGNEE_ID, UV.CATEGORY, GAV.SHIPCUSTID 
+        VVV.VOYAGE_IN, VVV.VOYAGE_OUT, UV.VENT_REQUIRED_PCT, UV.VENT_UNIT, UV.COMPLEX_POSITION, UV.CONSIGNEE_ID, UV.CATEGORY, GAV.SHIPCUSTID 
            from GATE_APPOINTMENT_VIEW GAV
              left join UNIT_VIEW UV ON GAV.UNIT_GKEY = UV.UNIT_GKEY
              left join REF_BIZUNIT_SCOPED_VIEW RBSV ON GAV.SHIPCUSTID_GKEY = RBSV.GKEY

@@ -1,95 +1,95 @@
 K 25
 svn:wc:ra_dav:version-url
-V 79
-/!svn/ver/753/atp/solicitudes/solicitudes.core/trunk/src/main/resources/mybatis
-END
-SpecialMapper.xml
-K 25
-svn:wc:ra_dav:version-url
 V 97
-/!svn/ver/753/atp/solicitudes/solicitudes.core/trunk/src/main/resources/mybatis/SpecialMapper.xml
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/solicitudes.core/src/main/resources/mybatis
 END
 BookingMapper.xml
 K 25
 svn:wc:ra_dav:version-url
-V 97
-/!svn/ver/371/atp/solicitudes/solicitudes.core/trunk/src/main/resources/mybatis/BookingMapper.xml
+V 115
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/solicitudes.core/src/main/resources/mybatis/BookingMapper.xml
+END
+SpecialMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/solicitudes.core/src/main/resources/mybatis/SpecialMapper.xml
 END
 ClienteMapper.xml
 K 25
 svn:wc:ra_dav:version-url
-V 97
-/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/resources/mybatis/ClienteMapper.xml
+V 115
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/solicitudes.core/src/main/resources/mybatis/ClienteMapper.xml
 END
 RecintoOrigenMapper.xml
 K 25
 svn:wc:ra_dav:version-url
-V 103
-/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/resources/mybatis/RecintoOrigenMapper.xml
+V 121
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/solicitudes.core/src/main/resources/mybatis/RecintoOrigenMapper.xml
 END
 ContenedorMapper.xml
 K 25
 svn:wc:ra_dav:version-url
-V 100
-/!svn/ver/371/atp/solicitudes/solicitudes.core/trunk/src/main/resources/mybatis/ContenedorMapper.xml
-END
-AgenciaAduanalMapper.xml
-K 25
-svn:wc:ra_dav:version-url
-V 104
-/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/resources/mybatis/AgenciaAduanalMapper.xml
+V 118
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/solicitudes.core/src/main/resources/mybatis/ContenedorMapper.xml
 END
 PaqueteComercialMapper.xml
 K 25
 svn:wc:ra_dav:version-url
-V 106
-/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/resources/mybatis/PaqueteComercialMapper.xml
+V 124
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/solicitudes.core/src/main/resources/mybatis/PaqueteComercialMapper.xml
+END
+AgenciaAduanalMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/solicitudes.core/src/main/resources/mybatis/AgenciaAduanalMapper.xml
 END
 TransportistaMapper.xml
 K 25
 svn:wc:ra_dav:version-url
-V 103
-/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/resources/mybatis/TransportistaMapper.xml
+V 121
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/solicitudes.core/src/main/resources/mybatis/TransportistaMapper.xml
 END
 LineaNavieraMapper.xml
 K 25
 svn:wc:ra_dav:version-url
-V 102
-/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/resources/mybatis/LineaNavieraMapper.xml
+V 120
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/solicitudes.core/src/main/resources/mybatis/LineaNavieraMapper.xml
 END
 StoredProceduresMapper.xml
 K 25
 svn:wc:ra_dav:version-url
-V 106
-/!svn/ver/371/atp/solicitudes/solicitudes.core/trunk/src/main/resources/mybatis/StoredProceduresMapper.xml
+V 124
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/solicitudes.core/src/main/resources/mybatis/StoredProceduresMapper.xml
 END
 BLMapper.xml
 K 25
 svn:wc:ra_dav:version-url
-V 92
-/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/resources/mybatis/BLMapper.xml
+V 110
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/solicitudes.core/src/main/resources/mybatis/BLMapper.xml
 END
 BookingItemMapper.xml
 K 25
 svn:wc:ra_dav:version-url
-V 101
-/!svn/ver/371/atp/solicitudes/solicitudes.core/trunk/src/main/resources/mybatis/BookingItemMapper.xml
+V 119
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/solicitudes.core/src/main/resources/mybatis/BookingItemMapper.xml
 END
 OperadorTransportistaMapper.xml
 K 25
 svn:wc:ra_dav:version-url
-V 111
-/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/resources/mybatis/OperadorTransportistaMapper.xml
+V 129
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/solicitudes.core/src/main/resources/mybatis/OperadorTransportistaMapper.xml
 END
 UserN4Mapper.xml
 K 25
 svn:wc:ra_dav:version-url
-V 96
-/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/resources/mybatis/UserN4Mapper.xml
+V 114
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/solicitudes.core/src/main/resources/mybatis/UserN4Mapper.xml
 END
 TipoRecepcionVacioMapper.xml
 K 25
 svn:wc:ra_dav:version-url
-V 108
-/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/resources/mybatis/TipoRecepcionVacioMapper.xml
+V 126
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/solicitudes.core/src/main/resources/mybatis/TipoRecepcionVacioMapper.xml
 END

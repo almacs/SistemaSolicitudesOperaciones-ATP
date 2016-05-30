@@ -1,15 +1,15 @@
 10
 
 dir
-755
-https://svnserver.objectwave.com/atp/solicitudes/solicitudes.core/trunk/src/main/resources/mybatis/reports
-https://svnserver.objectwave.com
+64
+https://testingatp.svn.beanstalkapp.com/atp-solicitudes/branches/requerimiento-5/solicitudes.core/src/main/resources/mybatis/reports
+https://testingatp.svn.beanstalkapp.com/atp-solicitudes
 
 
 
-2015-03-06T16:55:59.421593Z
-753
-vruiz
+2015-10-02T15:13:54.080518Z
+51
+victoria
 
 
 svn:special svn:externals svn:needs-lock
@@ -24,7 +24,7 @@ svn:special svn:externals svn:needs-lock
 
 
 
-14428335-e503-4214-8c7d-7500f3910c27
+bb2d65ee-dfec-4891-9b67-b06398523463
 
 ArrivalTimeLlegadaAlCentroReguladorMapper.xml
 file
@@ -32,12 +32,12 @@ file
 
 
 
-2015-03-06T21:27:44.325000Z
+2016-02-07T23:43:01.021000Z
 69be7bf5f11a580352c7214c3d43052e
-2015-03-06T16:55:59.421593Z
-753
-vruiz
-
+2015-09-16T12:41:31.690828Z
+21
+mach
+has-props
 
 
 
@@ -66,12 +66,12 @@ file
 
 
 
-2015-03-06T21:27:44.231000Z
+2016-02-07T23:43:00.943000Z
 67345a4ff1bf935c3a9f7e199e54522b
-2014-05-09T20:07:40.635722Z
-158
-jhinojosa
-
+2015-09-16T12:41:31.690828Z
+21
+mach
+has-props
 
 
 
@@ -100,12 +100,12 @@ file
 
 
 
-2015-03-06T21:27:44.347000Z
+2016-02-07T23:43:01.036000Z
 db4305066a00531b939226144bb4ce62
-2014-05-09T20:07:40.635722Z
-158
-jhinojosa
-
+2015-09-16T12:41:31.690828Z
+21
+mach
+has-props
 
 
 
@@ -134,12 +134,12 @@ file
 
 
 
-2015-03-06T21:27:44.271000Z
+2016-02-07T23:43:00.990000Z
 8eccf61105ac6bfd28138e9c2115d233
-2014-05-09T20:07:40.635722Z
-158
-jhinojosa
-
+2015-09-16T12:41:31.690828Z
+21
+mach
+has-props
 
 
 
@@ -168,12 +168,12 @@ file
 
 
 
-2015-03-06T21:27:44.299000Z
+2016-02-07T23:43:01.005000Z
 33039709c3e2801e24b2d72d769b8d0b
-2014-05-09T20:07:40.635722Z
-158
-jhinojosa
-
+2015-09-16T12:41:31.690828Z
+21
+mach
+has-props
 
 
 
@@ -202,12 +202,12 @@ file
 
 
 
-2015-03-06T21:27:44.106000Z
+2016-02-07T23:43:00.865000Z
 b17d6bd8daf4d8da20edea36ffe65d25
-2014-05-09T20:07:40.635722Z
-158
-jhinojosa
-
+2015-09-16T12:41:31.690828Z
+21
+mach
+has-props
 
 
 
@@ -236,12 +236,12 @@ file
 
 
 
-2015-03-06T21:27:44.191000Z
+2016-02-07T23:43:00.912000Z
 5b0bca9541bed26304863bb47dd4d38e
-2014-05-09T20:07:40.635722Z
-158
-jhinojosa
-
+2015-09-16T12:41:31.690828Z
+21
+mach
+has-props
 
 
 
@@ -270,12 +270,12 @@ file
 
 
 
-2015-03-06T21:27:44.159000Z
+2016-02-07T23:43:00.880000Z
 ee33a9d7af4f1471e5a8ea5ea49caa33
-2014-05-09T20:07:40.635722Z
-158
-jhinojosa
-
+2015-09-16T12:41:31.690828Z
+21
+mach
+has-props
 
 
 
@@ -304,12 +304,12 @@ file
 
 
 
-2015-03-06T21:27:44.252000Z
+2016-02-07T23:43:00.974000Z
 6cb93ff598f78aac599da8d472f109d0
-2014-05-09T20:07:40.635722Z
-158
-jhinojosa
-
+2015-09-16T12:41:31.690828Z
+21
+mach
+has-props
 
 
 
@@ -338,12 +338,12 @@ file
 
 
 
-2015-03-06T21:27:44.211000Z
+2016-02-07T23:43:00.927000Z
 a94632e237b85971f44e876845611b8a
-2015-03-06T16:55:59.421593Z
-753
-vruiz
-
+2015-09-16T12:41:31.690828Z
+21
+mach
+has-props
 
 
 
@@ -372,11 +372,12 @@ file
 
 
 
-2015-03-06T21:27:44.176000Z
-abef5e4da436b27e80adb4f630a33a77
-2015-03-06T16:55:59.421593Z
-753
-vruiz
+2016-02-07T23:43:00.896000Z
+688b7ccc4853b7f291185d36f0b542f7
+2015-10-02T15:13:54.080518Z
+51
+victoria
+has-props
 
 
 
@@ -397,6 +398,5 @@ vruiz
 
 
 
-
-6168
+6321
 

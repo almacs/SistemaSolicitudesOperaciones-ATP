@@ -49,6 +49,7 @@ public class PaseDeEntradaReport
 	private Integer uv_unitGkey;
 	private String uv_consigneeId;
 	private String uv_category;
+	private String uv_etiquetaUndg;
 
 	private String bv_notes;
 
@@ -64,11 +65,13 @@ public class PaseDeEntradaReport
 	private String vvv_vesselVoyage;
 	private String vvv_vesselName;
 	private String vvv_voyageIn;
+	private String vvv_voyageOut;
 
 	private Integer uhv_hzrdGkey;
 	private String uhv_imdgClass;
 	private String uhv_hzrdDescription;
 	private Integer uhv_marinePollutants;
+	
 
 	// TODO remove this from here and from the report
 	public Boolean getPrintState()
@@ -484,6 +487,29 @@ public class PaseDeEntradaReport
 		this.uv_unitGkey = uv_unitGkey;
 	}
 
+	public String getUv_etiquetaUndg() {
+		if(uv_etiquetaUndg!=null)
+		{
+			return uv_etiquetaUndg;
+		}
+		else
+		{
+			return "";
+		}
+		
+	}
+
+	public void setUv_etiquetaUndg(String uv_etiquetaUndg) {
+		if(uv_etiquetaUndg!=null)
+		{
+		this.uv_etiquetaUndg = uv_etiquetaUndg;
+		}
+		else
+		{
+			this.uv_etiquetaUndg = "";
+		}
+	}
+
 	public String getBv_notes()
 	{
 		return bv_notes;
@@ -592,6 +618,14 @@ public class PaseDeEntradaReport
 	public void setVvv_voyageIn(String vvv_voyageIn)
 	{
 		this.vvv_voyageIn = vvv_voyageIn;
+	}
+
+	public String getVvv_voyageOut() {
+		return vvv_voyageOut;
+	}
+
+	public void setVvv_voyageOut(String vvv_voyageOut) {
+		this.vvv_voyageOut = vvv_voyageOut;
 	}
 
 	public Integer getUhv_hzrdGkey()
@@ -1013,6 +1047,36 @@ public class PaseDeEntradaReport
 				return (uv_complexPosition.substring(7, 12));
 			else
 				return "";
+	}
+	
+	public String getVessel()
+	{
+		
+		String vesselN=null;
+		if(!vvv_vesselVoyage.equals(null) || !vvv_vesselName.equals(null) || !vvv_voyageOut.equals(null) )
+		{
+		 vesselN = vvv_vesselVoyage+" " + vvv_vesselName + " " + vvv_voyageOut;
+		}
+		else
+		{
+			vesselN = "";
+		}
+		return vesselN;
+	}
+	
+	public String getEtiqUndg()
+	{
+		String etiqUndg = null;
+		
+		if(uv_etiquetaUndg.equals(null) ||uv_etiquetaUndg.equals(""))
+		{
+			etiqUndg="";
+		}
+		else
+		{
+			etiqUndg = "Etiqueta UNDG: ";
+		}
+		return etiqUndg;
 	}
 
 }

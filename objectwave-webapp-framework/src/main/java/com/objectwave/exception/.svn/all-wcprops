@@ -1,17 +1,17 @@
 K 25
 svn:wc:ra_dav:version-url
-V 90
-/!svn/ver/178/ow/webapp-framework/branches/version2/src/main/java/com/objectwave/exception
+V 120
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/objectwave-webapp-framework/src/main/java/com/objectwave/exception
 END
 DomainModelException.java
 K 25
 svn:wc:ra_dav:version-url
-V 116
-/!svn/ver/178/ow/webapp-framework/branches/version2/src/main/java/com/objectwave/exception/DomainModelException.java
+V 146
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/objectwave-webapp-framework/src/main/java/com/objectwave/exception/DomainModelException.java
 END
 BusinessRuleException.java
 K 25
 svn:wc:ra_dav:version-url
-V 117
-/!svn/ver/178/ow/webapp-framework/branches/version2/src/main/java/com/objectwave/exception/BusinessRuleException.java
+V 147
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/objectwave-webapp-framework/src/main/java/com/objectwave/exception/BusinessRuleException.java
 END

@@ -1,71 +1,71 @@
 K 25
 svn:wc:ra_dav:version-url
-V 87
-/!svn/ver/753/atp/solicitudes/solicitudes.core/trunk/src/main/resources/mybatis/reports
+V 105
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/solicitudes.core/src/main/resources/mybatis/reports
 END
 ArrivalTimeMapper.xml
 K 25
 svn:wc:ra_dav:version-url
-V 109
-/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/resources/mybatis/reports/ArrivalTimeMapper.xml
+V 127
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/solicitudes.core/src/main/resources/mybatis/reports/ArrivalTimeMapper.xml
 END
 PaseDeEntradaReportMapper.xml
 K 25
 svn:wc:ra_dav:version-url
-V 117
-/!svn/ver/753/atp/solicitudes/solicitudes.core/trunk/src/main/resources/mybatis/reports/PaseDeEntradaReportMapper.xml
+V 135
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/solicitudes.core/src/main/resources/mybatis/reports/PaseDeEntradaReportMapper.xml
 END
 ContenedoresLlenos_RecepcionPorPuertaMapper.xml
 K 25
 svn:wc:ra_dav:version-url
-V 135
-/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/resources/mybatis/reports/ContenedoresLlenos_RecepcionPorPuertaMapper.xml
+V 153
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/solicitudes.core/src/main/resources/mybatis/reports/ContenedoresLlenos_RecepcionPorPuertaMapper.xml
 END
 ContenedoresLlenos_UltimoEmbarqueMapper.xml
 K 25
 svn:wc:ra_dav:version-url
-V 131
-/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/resources/mybatis/reports/ContenedoresLlenos_UltimoEmbarqueMapper.xml
+V 149
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/solicitudes.core/src/main/resources/mybatis/reports/ContenedoresLlenos_UltimoEmbarqueMapper.xml
 END
 ArrivalTimeLlegadaAlCentroReguladorMapper.xml
 K 25
 svn:wc:ra_dav:version-url
-V 133
-/!svn/ver/753/atp/solicitudes/solicitudes.core/trunk/src/main/resources/mybatis/reports/ArrivalTimeLlegadaAlCentroReguladorMapper.xml
+V 151
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/solicitudes.core/src/main/resources/mybatis/reports/ArrivalTimeLlegadaAlCentroReguladorMapper.xml
 END
 ConsultaOperativoMapper.xml
 K 25
 svn:wc:ra_dav:version-url
-V 115
-/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/resources/mybatis/reports/ConsultaOperativoMapper.xml
+V 133
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/solicitudes.core/src/main/resources/mybatis/reports/ConsultaOperativoMapper.xml
 END
 ConsultaBlMapper.xml
 K 25
 svn:wc:ra_dav:version-url
-V 108
-/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/resources/mybatis/reports/ConsultaBlMapper.xml
+V 126
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/solicitudes.core/src/main/resources/mybatis/reports/ConsultaBlMapper.xml
 END
 ContenedoresLlenos_EntregaPorPuertaMapper.xml
 K 25
 svn:wc:ra_dav:version-url
-V 133
-/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/resources/mybatis/reports/ContenedoresLlenos_EntregaPorPuertaMapper.xml
+V 151
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/solicitudes.core/src/main/resources/mybatis/reports/ContenedoresLlenos_EntregaPorPuertaMapper.xml
 END
 EtasCierresBuquesMapper.xml
 K 25
 svn:wc:ra_dav:version-url
-V 115
-/!svn/ver/753/atp/solicitudes/solicitudes.core/trunk/src/main/resources/mybatis/reports/EtasCierresBuquesMapper.xml
+V 133
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/solicitudes.core/src/main/resources/mybatis/reports/EtasCierresBuquesMapper.xml
 END
 ContenedoresLlenos_UltimoDesembarqueMapper.xml
 K 25
 svn:wc:ra_dav:version-url
-V 134
-/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/resources/mybatis/reports/ContenedoresLlenos_UltimoDesembarqueMapper.xml
+V 152
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/solicitudes.core/src/main/resources/mybatis/reports/ContenedoresLlenos_UltimoDesembarqueMapper.xml
 END
 ConsultaBookingMapper.xml
 K 25
 svn:wc:ra_dav:version-url
-V 113
-/!svn/ver/158/atp/solicitudes/solicitudes.core/trunk/src/main/resources/mybatis/reports/ConsultaBookingMapper.xml
+V 131
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/solicitudes.core/src/main/resources/mybatis/reports/ConsultaBookingMapper.xml
 END

@@ -1,11 +1,11 @@
 K 25
 svn:wc:ra_dav:version-url
-V 98
-/!svn/ver/178/ow/webapp-framework/branches/version2/src/main/java/com/objectwave/webservice/client
+V 128
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/objectwave-webapp-framework/src/main/java/com/objectwave/webservice/client
 END
 ObjectWaveWebServiceTemplate.java
 K 25
 svn:wc:ra_dav:version-url
-V 132
-/!svn/ver/178/ow/webapp-framework/branches/version2/src/main/java/com/objectwave/webservice/client/ObjectWaveWebServiceTemplate.java
+V 162
+/atp-solicitudes/!svn/ver/53/branches/requerimiento-5/objectwave-webapp-framework/src/main/java/com/objectwave/webservice/client/ObjectWaveWebServiceTemplate.java
 END

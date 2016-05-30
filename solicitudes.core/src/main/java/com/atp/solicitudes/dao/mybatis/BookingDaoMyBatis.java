@@ -40,8 +40,22 @@ public class BookingDaoMyBatis extends MyBatisDaoTemplate implements BookingDao
 
 		RowBounds rowBounds = new RowBounds(0, maxResults);
 
-		List<SimpleEntry> col = selectList(MYBATIS_NAMESPACE + ".selectDistinct", map, rowBounds);
+		List<SimpleEntry> collection = selectList(MYBATIS_NAMESPACE + ".selectDistinct", map, rowBounds);
 
-		return col;
+		return collection;
+	}
+	
+	public List<Booking> getEqualsByName(String name, int maxResults) throws Exception
+	{
+		Map<String, String> map = new HashMap<String, String>();
+
+		map.put("columnName", "BOOKING");
+		map.put("columnValue", name);
+
+		RowBounds rowBounds = new RowBounds(0, maxResults);
+		
+		List<Booking> collection = selectList(MYBATIS_NAMESPACE + ".selectEqualsByName", map, rowBounds);
+
+		return collection;
 	}
 }

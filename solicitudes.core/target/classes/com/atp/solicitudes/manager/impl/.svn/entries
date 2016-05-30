@@ -1,15 +1,15 @@
 10
 
 dir
-755
-https://svnserver.objectwave.com/atp/solicitudes/solicitudes.core/trunk/src/main/java/com/atp/solicitudes/manager/impl
-https://svnserver.objectwave.com
+64
+https://testingatp.svn.beanstalkapp.com/atp-solicitudes/branches/requerimiento-5/solicitudes.core/src/main/java/com/atp/solicitudes/manager/impl
+https://testingatp.svn.beanstalkapp.com/atp-solicitudes
 
 
 
-2015-03-06T17:49:42.057100Z
-754
-vruiz
+2016-02-05T17:48:12.008535Z
+64
+victoria
 
 
 svn:special svn:externals svn:needs-lock
@@ -24,7 +24,7 @@ svn:special svn:externals svn:needs-lock
 
 
 
-14428335-e503-4214-8c7d-7500f3910c27
+bb2d65ee-dfec-4891-9b67-b06398523463
 
 DomainManagerImpl.java
 file
@@ -32,11 +32,12 @@ file
 
 
 
-2015-03-06T21:27:40.293000Z
-ab4cdc568befd047255878214f3c2244
-2014-10-03T02:13:33.224605Z
-707
-vruiz
+2016-02-07T23:42:48.189000Z
+4da7e731231a478224be73b9c6f08a6e
+2016-02-03T02:36:24.941662Z
+63
+victoria
+has-props
 
 
 
@@ -57,8 +58,7 @@ vruiz
 
 
 
-
-41041
+41105
 
 DomainManagerN4Impl.java
 file
@@ -66,11 +66,12 @@ file
 
 
 
-2015-03-06T21:27:40.335000Z
-c98c4353f9cd27be2906b9c5958d565e
-2015-03-06T17:49:42.057100Z
-754
-vruiz
+2016-02-07T23:42:48.220000Z
+80f79cb797008149d1da09f78bf69846
+2016-02-05T17:48:12.008535Z
+64
+victoria
+has-props
 
 
 
@@ -91,6 +92,5 @@ vruiz
 
 
 
-
-32562
+34019
 

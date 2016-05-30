@@ -15,6 +15,10 @@ public class BookingItem
 	private String grade;
 	private String imos;
 	private Integer marinePollutants;
+	private String undgField;
+ 
+
+	
 
 	public Integer getId()
 	{
@@ -159,5 +163,13 @@ public class BookingItem
 	public void setMarinePollutants(Integer marinePolutants)
 	{
 		this.marinePollutants = marinePolutants;
+	}
+	
+	public String getUndgField() {
+		return undgField;
+	}
+
+	public void setUndgField(String undgField) {
+		this.undgField = undgField;
 	}
 }

@@ -67,17 +67,6 @@ public class Solicitud implements Serializable, ActivityLogAppender
 	@Column(name= "paquete_id", nullable = true, length = CODIGO_ID_LENGTH)
 	private Integer codigoId;
 
-	@Column(name= "placas", nullable = true, length = CODIGO_ID_LENGTH)
-	private String placas;
-
-	@Column(name = "operador_id", nullable = true)
-	private Integer operadorId;
-
-	@Column(name = "transportista_id", nullable = true)
-	private Integer transportistaId;
-
-	@Column(name = "date_scheduled", nullable = true)
-	private Date dateScheduled;
 	
 	@ManyToOne(fetch = FetchType.EAGER)
 	@Fetch(value = FetchMode.SELECT)
@@ -282,46 +271,6 @@ public class Solicitud implements Serializable, ActivityLogAppender
 	public void setAgenciaAduanalId(Integer agenciaAduanalId)
 	{
 		this.agenciaAduanalId = agenciaAduanalId;
-	}
-
-	public String getPlacas()
-	{
-		return placas;
-	}
-
-	public void setPlacas(String placas)
-	{
-		this.placas = placas;
-	}
-
-	public Integer getOperadorId()
-	{
-		return operadorId;
-	}
-
-	public void setOperadorId(Integer operadorId)
-	{
-		this.operadorId = operadorId;
-	}
-
-	public Integer getTransportistaId()
-	{
-		return transportistaId;
-	}
-
-	public void setTransportistaId(Integer transportista)
-	{
-		this.transportistaId = transportista;
-	}
-
-	public Date getDateScheduled()
-	{
-		return dateScheduled;
-	}
-
-	public void setDateScheduled(Date dateScheduled)
-	{
-		this.dateScheduled = dateScheduled;
 	}
 
 	public String getRecinto()
